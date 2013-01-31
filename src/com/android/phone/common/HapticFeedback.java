@@ -92,7 +92,7 @@ public class HapticFeedback {
         if (enabled) {
             // We don't rely on getSystemService(Context.VIBRATOR_SERVICE) to make sure this
             // vibrator object will be isolated from others.
-            mVibrator = new SystemVibrator();
+            mVibrator = new SystemVibrator(context);
             if (!loadHapticSystemPattern(context.getResources())) {
                 mHapticPattern = new long[] {0, DURATION, 2 * DURATION, 3 * DURATION};
             }
