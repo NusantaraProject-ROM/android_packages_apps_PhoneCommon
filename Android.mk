@@ -13,11 +13,12 @@
 # limitations under the License.
 
 LOCAL_PATH:= $(call my-dir)
-
 include $(CLEAR_VARS)
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
+LOCAL_RESOURCE_FILES := $(addprefix $(LOCAL_PATH)/, res)
 
-LOCAL_MODULE := com.android.phone.shared
+LOCAL_PACKAGE_NAME := com.android.phone.common
 
-include $(BUILD_STATIC_JAVA_LIBRARY)
+include $(BUILD_PACKAGE)
+include $(CLEAR_VARS)
