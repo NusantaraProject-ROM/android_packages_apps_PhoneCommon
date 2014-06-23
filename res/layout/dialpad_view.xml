@@ -45,6 +45,7 @@
             android:visibility="gone" />
 
         <view class="com.android.phone.common.dialpad.DigitsEditText"
+            xmlns:ex="http://schemas.android.com/apk/res-auto"
             android:id="@+id/digits"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -61,7 +62,8 @@
             android:textColor="@color/dialpad_digits_text_color"
             android:textCursorDrawable="@null"
             android:fontFamily="sans-serif-light"
-            android:textStyle="normal" />
+            android:textStyle="normal"
+            ex:resizing_text_min_size="@dimen/dialpad_digits_text_min_size" />
 
         <ImageButton
             android:id="@+id/deleteButton"

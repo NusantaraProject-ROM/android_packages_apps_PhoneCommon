@@ -28,18 +28,15 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 
 import com.android.phone.common.R;
+import com.android.phone.common.widget.ResizingTextEditText;
 
 /**
  * EditText which suppresses IME show up.
  */
-public class DigitsEditText extends EditText {
-    // Only scale the text down to 66% smaller at most.
-    private static final float MIN_TEXT_RESIZE_RATIO = 0.66f;
-    private final float mOriginalTextSize;
+public class DigitsEditText extends ResizingTextEditText {
 
     public DigitsEditText(Context context, AttributeSet attrs) {
         super(context, attrs);
-        mOriginalTextSize = getTextSize();
         setInputType(getInputType() | InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS);
         setShowSoftInputOnFocus(false);
     }
@@ -64,31 +61,5 @@ public class DigitsEditText extends EditText {
             imm.hideSoftInputFromWindow(getApplicationWindowToken(), 0);
         }
         return ret;
-    }
-
-    @Override
-    protected void onTextChanged(CharSequence text, int start, int lengthBefore, int lengthAfter) {
-        super.onTextChanged(text, start, lengthBefore, lengthAfter);
-        resizeText(getWidth());
-    }
-
-    @Override
-    protected void onSizeChanged(int w, int h, int oldw, int oldh) {
-        super.onSizeChanged(w, h, oldw, oldh);
-        resizeText(w);
-    }
-
-    private void resizeText(int width) {
-        if (width == 0) {
-            return;
-        }
-        final Paint paint = getPaint();
-        setTextSize(TypedValue.COMPLEX_UNIT_PX, mOriginalTextSize);
-
-        float ratio = width / paint.measureText(getText().toString());
-        if (ratio <= 1.0f) {
-            setTextSize(TypedValue.COMPLEX_UNIT_PX,
-                    mOriginalTextSize * Math.max(MIN_TEXT_RESIZE_RATIO, ratio));
-        }
     }
 }

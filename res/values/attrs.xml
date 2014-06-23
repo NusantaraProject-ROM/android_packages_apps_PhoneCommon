@@ -18,4 +18,8 @@
     <declare-styleable name="Dialpad">
         <attr name="dialpad_key_button_touch_tint" format="color"/>
     </declare-styleable>
+
+    <declare-styleable name="ResizingText">
+        <attr name="resizing_text_min_size" format="dimension"/>
+    </declare-styleable>
 </resources>
