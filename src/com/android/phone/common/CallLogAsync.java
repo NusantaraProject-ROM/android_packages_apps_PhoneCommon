@@ -20,6 +20,7 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Looper;
 import android.provider.CallLog.Calls;
+import android.telecomm.Subscription;
 import android.util.Log;
 import com.android.internal.telephony.CallerInfo;
 
@@ -72,6 +73,7 @@ public class CallLogAsync {
                            String number,
                            int presentation,
                            int callType,
+                           Subscription subscription,
                            long timestamp,
                            long durationInMillis) {
             // Note that the context is passed each time. We could
@@ -96,6 +98,7 @@ public class CallLogAsync {
             this.number = number;
             this.presentation = presentation;
             this.callType = callType;
+            this.subscription = subscription;
             this.timestamp = timestamp;
             this.durationInSec = (int)(durationInMillis / 1000);
         }
@@ -106,6 +109,7 @@ public class CallLogAsync {
         public final String number;
         public final int presentation;
         public final int callType;
+        public final Subscription subscription;
         public final long timestamp;
         public final int durationInSec;
     }
@@ -162,7 +166,7 @@ public class CallLogAsync {
                     // May block.
                     result[i] = Calls.addCall(
                             c.ci, c.context, c.number, c.presentation,
-                            c.callType, c.timestamp, c.durationInSec);
+                            c.callType, c.subscription, c.timestamp, c.durationInSec);
                 } catch (Exception e) {
                     // This must be very rare but may happen in legitimate cases.
                     // e.g. If the phone is encrypted and thus write request fails, it may
