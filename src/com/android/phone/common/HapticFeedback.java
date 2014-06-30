@@ -19,7 +19,6 @@ package com.android.phone.common;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.res.Resources;
-import android.os.SystemVibrator;
 import android.os.Vibrator;
 import android.provider.Settings;
 import android.provider.Settings.System;
@@ -88,9 +87,7 @@ public class HapticFeedback {
     public void init(Context context, boolean enabled) {
         mEnabled = enabled;
         if (enabled) {
-            // We don't rely on getSystemService(Context.VIBRATOR_SERVICE) to make sure this
-            // vibrator object will be isolated from others.
-            mVibrator = new SystemVibrator(context);
+            mVibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
             mHapticPattern = new long[] {0, DURATION, 2 * DURATION, 3 * DURATION};
             mSystemSettings = new Settings.System();
             mContentResolver = context.getContentResolver();
