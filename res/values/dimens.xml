@@ -36,6 +36,7 @@
     <dimen name="dialpad_button_margin">2dp</dimen>
     <dimen name="dialpad_voicemail_icon_padding_top">2dp</dimen>
     <dimen name="dialpad_key_button_translate_y">100dp</dimen>
+    <dimen name="dialpad_overflow_margin">8dp</dimen>
     <!-- Height of the floating action button -->
     <dimen name="floating_action_button_height">56dp</dimen>
     <!-- Width of the floating action button -->
