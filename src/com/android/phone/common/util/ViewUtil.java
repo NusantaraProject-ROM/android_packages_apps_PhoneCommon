@@ -22,6 +22,7 @@ import android.graphics.Paint;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.ViewOutlineProvider;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -58,27 +59,20 @@ public class ViewUtil {
         return view.getLayoutDirection() == View.LAYOUT_DIRECTION_RTL;
     }
 
+    private static final ViewOutlineProvider OVAL_OUTLINE_PROVIDER = new ViewOutlineProvider() {
+        @Override
+        public void getOutline(View view, Outline outline) {
+            outline.setOval(0, 0, view.getWidth(), view.getHeight());
+        }
+    };
+
     /**
      * Configures the floating action button, clipping it to a circle and setting its translation z.
      * @param view The float action button's view.
      * @param res The resources file.
      */
     public static void setupFloatingActionButton(View view, Resources res) {
-        // Once layout is complete and the floating action button has been assigned a width and
-        // height, assign the outline.
-        view.addOnLayoutChangeListener(new View.OnLayoutChangeListener() {
-            @Override
-            public void onLayoutChange(View v, int left, int top, int right, int bottom,
-                    int oldLeft, int oldTop, int oldRight, int oldBottom) {
-                final Outline outline = new Outline();
-                final int minDimension = Math.min(right - left, bottom - top);
-                if (minDimension <= 0) {
-                    return;
-                }
-                outline.setRoundRect(0, 0, right - left, bottom - top, minDimension / 2);
-                v.setOutline(outline);
-            }
-        });
+        view.setOutlineProvider(OVAL_OUTLINE_PROVIDER);
         view.setTranslationZ(
                 res.getDimensionPixelSize(R.dimen.floating_action_button_translation_z));
     }
