@@ -31,6 +31,10 @@
         <item name="android:gravity">center</item>
     </style>
 
+    <style name="DialpadBottomKeyNumberStyle" parent="DialpadKeyNumberStyle">
+        <item name="android:layout_marginBottom">@dimen/dialpad_zero_key_number_margin_bottom</item>
+    </style>
+
     <style name="DialpadKeyStarStyle">
         <item name="android:textColor">@color/dialpad_secondary_text_color</item>
         <item name="android:textSize">@dimen/dialpad_key_star_size</item>

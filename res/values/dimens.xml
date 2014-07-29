@@ -21,7 +21,9 @@
     <dimen name="dialpad_key_pound_size">23sp</dimen>
     <dimen name="dialpad_key_star_size">36sp</dimen>
     <dimen name="dialpad_key_height">64dp</dimen>
-    <dimen name="dialpad_key_number_margin_bottom">2dp</dimen>
+    <dimen name="dialpad_key_number_margin_bottom">3dp</dimen>
+    <!-- Zero key should have less space between self and text because "+" is smaller -->
+    <dimen name="dialpad_zero_key_number_margin_bottom">1dp</dimen>
     <dimen name="dialpad_symbol_margin_bottom">13dp</dimen>
     <!-- The bottom row of the dialpad is slightly taller to account for the dial button -->
     <dimen name="dialpad_bottom_key_height">65dp</dimen>
@@ -31,6 +33,7 @@
     <dimen name="dialpad_digits_text_min_size">24sp</dimen>
     <dimen name="dialpad_digits_height">64dp</dimen>
     <dimen name="dialpad_digits_padding">16dp</dimen>
+    <dimen name="dialpad_digits_menu_left_padding">8dp</dimen>
     <dimen name="dialpad_digits_menu_right_padding">10dp</dimen>
     <dimen name="dialpad_center_margin">3dp</dimen>
     <dimen name="dialpad_button_margin">2dp</dimen>
