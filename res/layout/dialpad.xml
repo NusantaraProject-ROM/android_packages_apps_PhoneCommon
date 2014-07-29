@@ -90,9 +90,7 @@
                     style="@style/DialpadKeyStarStyle" />
             </LinearLayout>
         </com.android.phone.common.dialpad.DialpadKeyButton>
-        <include layout="@layout/dialpad_key"
-            android:id="@+id/zero"
-            style="@style/DialpadKeyButtonStyle" />
+        <include layout="@layout/dialpad_key_zero" />
         <com.android.phone.common.dialpad.DialpadKeyButton
             android:id="@+id/pound"
             style="@style/DialpadKeyButtonStyle">
