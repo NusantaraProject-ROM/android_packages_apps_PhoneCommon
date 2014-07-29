@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="@dimen/dialpad_voicemail_icon_padding_top"
                 android:id="@+id/dialpad_key_voicemail"
-                android:src="@drawable/ic_dialpad_vm"
+                android:src="@drawable/ic_dialpad_voicemail"
                 android:scaleType="fitCenter"
                 android:layout_centerInParent="true"
                 android:tint="@color/dialpad_secondary_text_color" />
