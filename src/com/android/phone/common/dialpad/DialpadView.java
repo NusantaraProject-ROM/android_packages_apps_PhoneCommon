@@ -16,18 +16,19 @@
 
 package com.android.phone.common.dialpad;
 
-import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.content.Context;
 import android.content.res.ColorStateList;
+import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
-import android.graphics.PorterDuff;
 import android.graphics.drawable.RippleDrawable;
+import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.ViewPropertyAnimator;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
@@ -35,6 +36,8 @@ import android.widget.TextView;
 
 import com.android.phone.common.R;
 import com.android.phone.common.animation.AnimUtils;
+
+import java.util.Locale;
 
 /**
  * View that displays a twelve-key phone dialpad.
@@ -44,6 +47,16 @@ public class DialpadView extends LinearLayout {
 
     private static final double DELAY_MULTIPLIER = 0.66;
     private static final double DURATION_MULTIPLIER = 0.8;
+
+    /**
+     * {@code True} if the dialpad is in landscape orientation.
+     */
+    private final boolean mIsLandscape;
+
+    /**
+     * {@code True} if the dialpad is showing in a right-to-left locale.
+     */
+    private final boolean mIsRtl;
 
     private EditText mDigits;
     private ImageButton mDelete;
@@ -78,6 +91,11 @@ public class DialpadView extends LinearLayout {
 
         mTranslateDistance = getResources().getDimensionPixelSize(
                 R.dimen.dialpad_key_button_translate_y);
+
+        mIsLandscape = getResources().getConfiguration().orientation ==
+                Configuration.ORIENTATION_LANDSCAPE;
+        mIsRtl = TextUtils.getLayoutDirectionFromLocale(Locale.getDefault()) ==
+                View.LAYOUT_DIRECTION_RTL;
     }
 
     @Override
@@ -190,10 +208,18 @@ public class DialpadView extends LinearLayout {
                     (int)(getKeyButtonAnimationDuration(mButtonIds[i]) * DURATION_MULTIPLIER);
             final DialpadKeyButton dialpadKey = (DialpadKeyButton) findViewById(mButtonIds[i]);
 
-            dialpadKey.setTranslationY(mTranslateDistance);
-            dialpadKey.animate()
-                    .translationY(0)
-                    .setInterpolator(AnimUtils.EASE_OUT_EASE_IN)
+            ViewPropertyAnimator animator = dialpadKey.animate();
+            if (mIsLandscape) {
+                // Landscape orientation requires translation along the X axis.
+                // For RTL locales, ensure we translate negative on the X axis.
+                dialpadKey.setTranslationX((mIsRtl ? -1 : 1) * mTranslateDistance);
+                animator.translationX(0);
+            } else {
+                // Portrait orientation requires translation along the Y axis.
+                dialpadKey.setTranslationY(mTranslateDistance);
+                animator.translationY(0);
+            }
+            animator.setInterpolator(AnimUtils.EASE_OUT_EASE_IN)
                     .setStartDelay(delay)
                     .setDuration(duration)
                     .setListener(showListener)
@@ -213,44 +239,134 @@ public class DialpadView extends LinearLayout {
         return mOverflowMenuButton;
     }
 
+    /**
+     * Get the animation delay for the buttons, taking into account whether the dialpad is in
+     * landscape left-to-right, landscape right-to-left, or portrait.
+     *
+     * @param buttonId The button ID.
+     * @return The animation delay.
+     */
     private int getKeyButtonAnimationDelay(int buttonId) {
-        switch(buttonId) {
-            case R.id.one: return KEY_FRAME_DURATION * 1;
-            case R.id.two: return KEY_FRAME_DURATION * 2;
-            case R.id.three: return KEY_FRAME_DURATION * 3;
-            case R.id.four: return KEY_FRAME_DURATION * 4;
-            case R.id.five: return KEY_FRAME_DURATION * 5;
-            case R.id.six: return KEY_FRAME_DURATION * 6;
-            case R.id.seven: return KEY_FRAME_DURATION * 7;
-            case R.id.eight: return KEY_FRAME_DURATION * 8;
-            case R.id.nine: return KEY_FRAME_DURATION * 9;
-            case R.id.star: return KEY_FRAME_DURATION * 10;
-            case R.id.zero:
-            case R.id.pound:
-                return KEY_FRAME_DURATION * 11;
+        if (mIsLandscape) {
+            if (mIsRtl) {
+                switch (buttonId) {
+                    case R.id.three: return KEY_FRAME_DURATION * 1;
+                    case R.id.six: return KEY_FRAME_DURATION * 2;
+                    case R.id.nine: return KEY_FRAME_DURATION * 3;
+                    case R.id.pound: return KEY_FRAME_DURATION * 4;
+                    case R.id.two: return KEY_FRAME_DURATION * 5;
+                    case R.id.five: return KEY_FRAME_DURATION * 6;
+                    case R.id.eight: return KEY_FRAME_DURATION * 7;
+                    case R.id.zero: return KEY_FRAME_DURATION * 8;
+                    case R.id.one: return KEY_FRAME_DURATION * 9;
+                    case R.id.four: return KEY_FRAME_DURATION * 10;
+                    case R.id.seven:
+                    case R.id.star:
+                        return KEY_FRAME_DURATION * 11;
+                }
+            } else {
+                switch (buttonId) {
+                    case R.id.one: return KEY_FRAME_DURATION * 1;
+                    case R.id.four: return KEY_FRAME_DURATION * 2;
+                    case R.id.seven: return KEY_FRAME_DURATION * 3;
+                    case R.id.star: return KEY_FRAME_DURATION * 4;
+                    case R.id.two: return KEY_FRAME_DURATION * 5;
+                    case R.id.five: return KEY_FRAME_DURATION * 6;
+                    case R.id.eight: return KEY_FRAME_DURATION * 7;
+                    case R.id.zero: return KEY_FRAME_DURATION * 8;
+                    case R.id.three: return KEY_FRAME_DURATION * 9;
+                    case R.id.six: return KEY_FRAME_DURATION * 10;
+                    case R.id.nine:
+                    case R.id.pound:
+                        return KEY_FRAME_DURATION * 11;
+                }
+            }
+        } else {
+            switch (buttonId) {
+                case R.id.one: return KEY_FRAME_DURATION * 1;
+                case R.id.two: return KEY_FRAME_DURATION * 2;
+                case R.id.three: return KEY_FRAME_DURATION * 3;
+                case R.id.four: return KEY_FRAME_DURATION * 4;
+                case R.id.five: return KEY_FRAME_DURATION * 5;
+                case R.id.six: return KEY_FRAME_DURATION * 6;
+                case R.id.seven: return KEY_FRAME_DURATION * 7;
+                case R.id.eight: return KEY_FRAME_DURATION * 8;
+                case R.id.nine: return KEY_FRAME_DURATION * 9;
+                case R.id.star: return KEY_FRAME_DURATION * 10;
+                case R.id.zero:
+                case R.id.pound:
+                    return KEY_FRAME_DURATION * 11;
+            }
         }
 
         Log.wtf(TAG, "Attempted to get animation delay for invalid key button id.");
         return 0;
     }
 
+    /**
+     * Get the button animation duration, taking into account whether the dialpad is in landscape
+     * left-to-right, landscape right-to-left, or portrait.
+     *
+     * @param buttonId The button ID.
+     * @return The animation duration.
+     */
     private int getKeyButtonAnimationDuration(int buttonId) {
-        switch(buttonId) {
-            case R.id.one:
-            case R.id.two:
-            case R.id.three:
-            case R.id.four:
-            case R.id.five:
-            case R.id.six:
-                return KEY_FRAME_DURATION * 10;
-            case R.id.seven:
-            case R.id.eight:
-            case R.id.nine:
-                return KEY_FRAME_DURATION * 9;
-            case R.id.star:
-            case R.id.zero:
-            case R.id.pound:
-                return KEY_FRAME_DURATION * 8;
+        if (mIsLandscape) {
+            if (mIsRtl) {
+                switch (buttonId) {
+                    case R.id.one:
+                    case R.id.four:
+                    case R.id.seven:
+                    case R.id.star:
+                        return KEY_FRAME_DURATION * 8;
+                    case R.id.two:
+                    case R.id.five:
+                    case R.id.eight:
+                    case R.id.zero:
+                        return KEY_FRAME_DURATION * 9;
+                    case R.id.three:
+                    case R.id.six:
+                    case R.id.nine:
+                    case R.id.pound:
+                        return KEY_FRAME_DURATION * 10;
+                }
+            } else {
+                switch (buttonId) {
+                    case R.id.one:
+                    case R.id.four:
+                    case R.id.seven:
+                    case R.id.star:
+                        return KEY_FRAME_DURATION * 10;
+                    case R.id.two:
+                    case R.id.five:
+                    case R.id.eight:
+                    case R.id.zero:
+                        return KEY_FRAME_DURATION * 9;
+                    case R.id.three:
+                    case R.id.six:
+                    case R.id.nine:
+                    case R.id.pound:
+                        return KEY_FRAME_DURATION * 8;
+                }
+            }
+        } else {
+            switch (buttonId) {
+                case R.id.one:
+                case R.id.two:
+                case R.id.three:
+                case R.id.four:
+                case R.id.five:
+                case R.id.six:
+                    return KEY_FRAME_DURATION * 10;
+                case R.id.seven:
+                case R.id.eight:
+                case R.id.nine:
+                    return KEY_FRAME_DURATION * 9;
+                case R.id.star:
+                case R.id.zero:
+                case R.id.pound:
+                    return KEY_FRAME_DURATION * 8;
+            }
         }
 
         Log.wtf(TAG, "Attempted to get animation duration for invalid key button id.");
