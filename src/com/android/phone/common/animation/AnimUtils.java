@@ -18,10 +18,13 @@ package com.android.phone.common.animation;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
+import android.animation.ValueAnimator;
 import android.view.View;
 import android.view.ViewPropertyAnimator;
 import android.view.animation.Interpolator;
 import android.view.animation.PathInterpolator;
+
+import java.lang.Float;
 
 public class AnimUtils {
     public static final int DEFAULT_DURATION = -1;
@@ -103,6 +106,33 @@ public class AnimUtils {
         if (duration != DEFAULT_DURATION) {
             animator.setDuration(duration);
         }
+        animator.start();
+    }
+
+    /**
+     * Animates a view to the new specified dimensions.
+     * @param view The view to change the dimensions of.
+     * @param newWidth The new width of the view.
+     * @param newHeight The new height of the view.
+     */
+    public static void changeDimensions(final View view, final int newWidth, final int newHeight) {
+        ValueAnimator animator = ValueAnimator.ofFloat(0f, 1f);
+
+        final int oldWidth = view.getWidth();
+        final int oldHeight = view.getHeight();
+        final int deltaWidth = newWidth - oldWidth;
+        final int deltaHeight = newHeight - oldHeight;
+
+        animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+            @Override
+            public void onAnimationUpdate(ValueAnimator animator) {
+                Float value = (Float) animator.getAnimatedValue();
+
+                view.getLayoutParams().width = (int) (value * deltaWidth + oldWidth);
+                view.getLayoutParams().height = (int) (value * deltaHeight + oldHeight);
+                view.requestLayout();
+            }
+        });
         animator.start();
     }
 }
