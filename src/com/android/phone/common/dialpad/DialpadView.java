@@ -131,7 +131,7 @@ public class DialpadView extends LinearLayout {
             lettersView = (TextView) dialpadKey.findViewById(R.id.dialpad_key_letters);
             final String numberString = resources.getString(numberIds[i]);
             final RippleDrawable rippleBackground =
-                    (RippleDrawable) resources.getDrawable(R.drawable.btn_dialpad_key);
+                    (RippleDrawable) getContext().getDrawable(R.drawable.btn_dialpad_key);
             if (mRippleColor != null) {
                 rippleBackground.setColor(mRippleColor);
             }
