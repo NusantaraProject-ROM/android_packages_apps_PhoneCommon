@@ -75,13 +75,20 @@ public class AnimUtils {
     }
 
     public static void fadeIn(View fadeIn, int duration) {
-        fadeIn(fadeIn, duration, null);
+        fadeIn(fadeIn, duration, 0 /* delay */, null);
     }
 
     public static void fadeIn(final View fadeIn, int duration, final AnimationCallback callback) {
+        fadeIn(fadeIn, duration, 0 /* delay */, callback);
+    }
+
+    public static void fadeIn(
+            final View fadeIn, int duration, int delay, final AnimationCallback callback) {
         fadeIn.setAlpha(0);
         final ViewPropertyAnimator animator = fadeIn.animate();
         animator.cancel();
+
+        animator.setStartDelay(delay);
         animator.alpha(1).withLayer().setListener(new AnimatorListenerAdapter() {
             @Override
             public void onAnimationStart(Animator animation) {
@@ -103,6 +110,70 @@ public class AnimUtils {
                 }
             }
         });
+        if (duration != DEFAULT_DURATION) {
+            animator.setDuration(duration);
+        }
+        animator.start();
+    }
+
+    /**
+     * Scales in the view from scale of 0 to actual dimensions.
+     * @param view The view to scale.
+     * @param duration The duration of the scaling.
+     */
+    public static void scaleIn(final View view, int duration) {
+        AnimatorListenerAdapter listener = (new AnimatorListenerAdapter() {
+            @Override
+            public void onAnimationStart(Animator animation) {
+                view.setVisibility(View.VISIBLE);
+            }
+
+            @Override
+            public void onAnimationCancel(Animator animation) {
+                view.setScaleX(1);
+                view.setScaleY(1);
+            }
+        });
+        scaleInternal(view, duration, 0 /* startScaleValue */, 1 /* endScaleValue */, listener);
+    }
+
+
+    /**
+     * Scales out the view from actual dimensions to 0.
+     * @param view The view to scale.
+     * @param duration The duration of the scaling.
+     */
+    public static void scaleOut(final View view, int duration) {
+        AnimatorListenerAdapter listener = new AnimatorListenerAdapter() {
+            @Override
+            public void onAnimationEnd(Animator animation) {
+                view.setVisibility(View.GONE);
+            }
+
+            @Override
+            public void onAnimationCancel(Animator animation) {
+                view.setVisibility(View.GONE);
+                view.setScaleX(0);
+                view.setScaleY(0);
+            }
+        };
+
+        scaleInternal(view, duration, 1 /* startScaleValue */, 0 /* endScaleValue */, listener);
+    }
+
+    private static void scaleInternal(final View view, int duration, int startScaleValue,
+            int endScaleValue, AnimatorListenerAdapter listener) {
+        view.setScaleX(startScaleValue);
+        view.setScaleY(startScaleValue);
+
+        final ViewPropertyAnimator animator = view.animate();
+        animator.cancel();
+
+        animator.setInterpolator(EASE_OUT_EASE_IN)
+            .scaleX(endScaleValue)
+            .scaleY(endScaleValue)
+            .setListener(listener);
+
         if (duration != DEFAULT_DURATION) {
             animator.setDuration(duration);
         }
