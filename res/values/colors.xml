@@ -25,4 +25,5 @@
     <color name="dialpad_digits_text_color">#333</color>
     <color name="dialpad_separator_line_color">#dadada</color>
     <color name="dialpad_icon_tint">#b3b3b3</color>
+    <color name="dialpad_voicemail_tint">#919191</color>
 </resources>
