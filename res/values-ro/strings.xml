@@ -32,44 +32,24 @@
     <string name="description_image_button_plus" msgid="7821061347207448362">"plus"</string>
     <string name="description_voicemail_button" msgid="6281470684653439120">"mesagerie vocală"</string>
     <string name="default_notification_description" msgid="6011631627871110785">"Sunet prestabilit (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
-    <!-- no translation found for callFailed_userBusy (5163219086553610486) -->
-    <skip />
-    <!-- no translation found for callFailed_congestion (3645995103907418337) -->
-    <skip />
-    <!-- no translation found for callFailed_timedOut (7772951976278867294) -->
-    <skip />
-    <!-- no translation found for callFailed_server_unreachable (4766146133909799091) -->
-    <skip />
-    <!-- no translation found for callFailed_number_unreachable (1243366438388873914) -->
-    <skip />
-    <!-- no translation found for callFailed_invalid_credentials (6115412108261660271) -->
-    <skip />
-    <!-- no translation found for callFailed_out_of_network (3631228874861305456) -->
-    <skip />
-    <!-- no translation found for callFailed_server_error (1391421251190688379) -->
-    <skip />
-    <!-- no translation found for callFailed_noSignal (1758972490451048086) -->
-    <skip />
-    <!-- no translation found for callFailed_limitExceeded (8796663077702587664) -->
-    <skip />
-    <!-- no translation found for callFailed_powerOff (9179061328562234362) -->
-    <skip />
-    <!-- no translation found for callFailed_simError (3307159523385380486) -->
-    <skip />
-    <!-- no translation found for callFailed_outOfService (6816891010755565002) -->
-    <skip />
-    <!-- no translation found for callFailed_fdn_only (1720606112619022283) -->
-    <skip />
-    <!-- no translation found for callFailed_cb_enabled (7567782725805609592) -->
-    <skip />
-    <!-- no translation found for callFailed_dsac_restricted (524961119652214693) -->
-    <skip />
-    <!-- no translation found for callFailed_dsac_restricted_emergency (8465345184224474912) -->
-    <skip />
-    <!-- no translation found for callFailed_dsac_restricted_normal (6950825656495704410) -->
-    <skip />
-    <!-- no translation found for callFailed_unobtainable_number (124621797631734731) -->
-    <skip />
-    <!-- no translation found for incall_error_missing_voicemail_number (3651090591812220874) -->
-    <skip />
+    <string name="callFailed_userBusy" msgid="5163219086553610486">"Linie ocupată"</string>
+    <string name="callFailed_congestion" msgid="3645995103907418337">"Reţea ocupată"</string>
+    <string name="callFailed_timedOut" msgid="7772951976278867294">"Fără răspuns, durata a expirat"</string>
+    <string name="callFailed_server_unreachable" msgid="4766146133909799091">"Server neaccesibil"</string>
+    <string name="callFailed_number_unreachable" msgid="1243366438388873914">"Numărul nu poate fi contactat"</string>
+    <string name="callFailed_invalid_credentials" msgid="6115412108261660271">"Nume de utilizator sau parolă incorecte"</string>
+    <string name="callFailed_out_of_network" msgid="3631228874861305456">"Apelat din afara reţelei"</string>
+    <string name="callFailed_server_error" msgid="1391421251190688379">"Eroare de server. Încercaţi din nou mai târziu."</string>
+    <string name="callFailed_noSignal" msgid="1758972490451048086">"Niciun semnal"</string>
+    <string name="callFailed_limitExceeded" msgid="8796663077702587664">"Limită ACM depăşită"</string>
+    <string name="callFailed_powerOff" msgid="9179061328562234362">"Radio oprit"</string>
+    <string name="callFailed_simError" msgid="3307159523385380486">"Nu există SIM sau eroare de SIM"</string>
+    <string name="callFailed_outOfService" msgid="6816891010755565002">"Rețeaua mobilă nu este disponibilă"</string>
+    <string name="callFailed_fdn_only" msgid="1720606112619022283">"Apelurile trimise sunt restricţionate de FDN."</string>
+    <string name="callFailed_cb_enabled" msgid="7567782725805609592">"Nu puteţi efectua apeluri de ieşire în timp ce blocarea apelurilor este activă."</string>
+    <string name="callFailed_dsac_restricted" msgid="524961119652214693">"Toate apelurile sunt restricţionate de controlul de acces."</string>
+    <string name="callFailed_dsac_restricted_emergency" msgid="8465345184224474912">"Apelurile de urgenţă sunt restricţionate de controlul de acces."</string>
+    <string name="callFailed_dsac_restricted_normal" msgid="6950825656495704410">"Apelurile normale sunt restricţionate de controlul de acces."</string>
+    <string name="callFailed_unobtainable_number" msgid="124621797631734731">"Număr nevalid"</string>
+    <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"Număr de mesagerie vocală necunoscut."</string>
 </resources>
