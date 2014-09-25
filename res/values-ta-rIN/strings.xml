@@ -43,7 +43,7 @@
     <string name="callFailed_noSignal" msgid="1758972490451048086">"சிக்னல் இல்லை"</string>
     <string name="callFailed_limitExceeded" msgid="8796663077702587664">"ACM வரம்பு மீறப்பட்டது"</string>
     <string name="callFailed_powerOff" msgid="9179061328562234362">"ரேடியோ முடக்கப்பட்டது"</string>
-    <string name="callFailed_simError" msgid="3307159523385380486">"SIM இல்லை அல்லது SIM பிழை"</string>
+    <string name="callFailed_simError" msgid="3307159523385380486">"சிம் இல்லை அல்லது சிம் பிழை"</string>
     <string name="callFailed_outOfService" msgid="6816891010755565002">"மொபைல் நெட்வொர்க் இல்லை"</string>
     <string name="callFailed_fdn_only" msgid="1720606112619022283">"வெளிச்செல்லும் அழைப்புகள் FDN ஆல் தடுக்கப்பட்டன."</string>
     <string name="callFailed_cb_enabled" msgid="7567782725805609592">"அழைப்பு தடுப்பில் இருக்கும்போது பிறரை அழைக்க முடியாது."</string>

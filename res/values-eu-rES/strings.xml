@@ -45,7 +45,7 @@
     <string name="callFailed_powerOff" msgid="9179061328562234362">"Irratia desaktibatuta dago"</string>
     <string name="callFailed_simError" msgid="3307159523385380486">"Ez dago SIM txartelik edo SIM txartelaren errore bat gertatu da"</string>
     <string name="callFailed_outOfService" msgid="6816891010755565002">"Mugikorreko sarea ez dago erabilgarri"</string>
-    <string name="callFailed_fdn_only" msgid="1720606112619022283">"Irteerako deiak FDN ezarpen bidez murrizten dira."</string>
+    <string name="callFailed_fdn_only" msgid="1720606112619022283">"Irteerako deiak FDN ezarpenaren bidez murrizten dira."</string>
     <string name="callFailed_cb_enabled" msgid="7567782725805609592">"Ezin duzu irteerako deirik egin deien debekuak aktibatuta dauden bitartean."</string>
     <string name="callFailed_dsac_restricted" msgid="524961119652214693">"Dei guztiak sarbide-kontrolaren bidez murrizten dira."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="8465345184224474912">"Larrialdi-deiak sarbide-kontrolaren bidez murrizten dira."</string>
