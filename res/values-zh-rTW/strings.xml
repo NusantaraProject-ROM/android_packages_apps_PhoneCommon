@@ -34,7 +34,7 @@
     <string name="default_notification_description" msgid="6011631627871110785">"預設音效 (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
     <string name="callFailed_userBusy" msgid="5163219086553610486">"忙線"</string>
     <string name="callFailed_congestion" msgid="3645995103907418337">"網路忙碌"</string>
-    <string name="callFailed_timedOut" msgid="7772951976278867294">"無回應，已逾時"</string>
+    <string name="callFailed_timedOut" msgid="7772951976278867294">"無回應，作業逾時"</string>
     <string name="callFailed_server_unreachable" msgid="4766146133909799091">"無法連線至伺服器"</string>
     <string name="callFailed_number_unreachable" msgid="1243366438388873914">"無法撥通號碼"</string>
     <string name="callFailed_invalid_credentials" msgid="6115412108261660271">"使用者名稱或密碼不正確"</string>
