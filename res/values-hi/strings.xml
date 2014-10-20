@@ -30,7 +30,7 @@
     <string name="description_dialpad_overflow" msgid="4853244877599437286">"अधिक विकल्प"</string>
     <string name="description_delete_button" msgid="88733669653753441">"बैकस्पेस"</string>
     <string name="description_image_button_plus" msgid="7821061347207448362">"धन का चिह्न"</string>
-    <string name="description_voicemail_button" msgid="6281470684653439120">"ध्वनिमेल"</string>
+    <string name="description_voicemail_button" msgid="6281470684653439120">"वॉयस मेल"</string>
     <string name="default_notification_description" msgid="6011631627871110785">"डिफ़ॉल्ट ध्वनि (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
     <string name="callFailed_userBusy" msgid="5163219086553610486">"लाइन व्यस्त"</string>
     <string name="callFailed_congestion" msgid="3645995103907418337">"नेटवर्क व्यस्त"</string>
@@ -51,5 +51,5 @@
     <string name="callFailed_dsac_restricted_emergency" msgid="8465345184224474912">"आपातकालीन कॉल पहुंच नियंत्रण द्वारा प्रतिबंधित हैं."</string>
     <string name="callFailed_dsac_restricted_normal" msgid="6950825656495704410">"सामान्य कॉल पहुंच नियंत्रण द्वारा प्रतिबंधित हैं."</string>
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"अमान्य नंबर"</string>
-    <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"ध्वनिमेल नंबर अज्ञात है."</string>
+    <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"वॉयस मेल नंबर अज्ञात है."</string>
 </resources>

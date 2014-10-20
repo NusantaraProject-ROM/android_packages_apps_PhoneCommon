@@ -43,7 +43,7 @@
     <string name="callFailed_noSignal" msgid="1758972490451048086">"സിഗ്‌നൽ ഇല്ല"</string>
     <string name="callFailed_limitExceeded" msgid="8796663077702587664">"ACM പരിധി കഴിഞ്ഞു"</string>
     <string name="callFailed_powerOff" msgid="9179061328562234362">"റേഡിയോ ഓഫാണ്"</string>
-    <string name="callFailed_simError" msgid="3307159523385380486">"SIM ഇല്ല അല്ലെങ്കിൽ SIM പിശക്"</string>
+    <string name="callFailed_simError" msgid="3307159523385380486">"സിം ഇല്ല അല്ലെങ്കിൽ സിം പിശക്"</string>
     <string name="callFailed_outOfService" msgid="6816891010755565002">"മൊബൈൽ നെറ്റ്‌വർക്ക് ലഭ്യമല്ല"</string>
     <string name="callFailed_fdn_only" msgid="1720606112619022283">"FDN, ഔട്ട്ഗോയിംഗ് കോളുകൾ നിയന്ത്രിച്ചിരിക്കുന്നു."</string>
     <string name="callFailed_cb_enabled" msgid="7567782725805609592">"കോൾ ബാറിംഗ് ഓണായിരിക്കുമ്പോൾ നിങ്ങൾക്ക് ഔട്ട്‌ഗോയിംഗ് കോളുകൾ വിളിക്കാനാകില്ല."</string>
