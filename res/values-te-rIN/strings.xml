@@ -43,7 +43,7 @@
     <string name="callFailed_noSignal" msgid="1758972490451048086">"సిగ్నల్ లేదు"</string>
     <string name="callFailed_limitExceeded" msgid="8796663077702587664">"ACM పరిమితి మించిపోయింది"</string>
     <string name="callFailed_powerOff" msgid="9179061328562234362">"రేడియో ఆఫ్‌లో ఉంది"</string>
-    <string name="callFailed_simError" msgid="3307159523385380486">"SIM లేదు లేదా SIM లోపం"</string>
+    <string name="callFailed_simError" msgid="3307159523385380486">"సిమ్ లేదు లేదా సిమ్ లోపం"</string>
     <string name="callFailed_outOfService" msgid="6816891010755565002">"మొబైల్ నెట్‌వర్క్ అందుబాటులో లేదు"</string>
     <string name="callFailed_fdn_only" msgid="1720606112619022283">"FDN ద్వారా అవుట్‌గోయింగ్ కాల్‌లు పరిమితం చేయబడ్డాయి."</string>
     <string name="callFailed_cb_enabled" msgid="7567782725805609592">"కాల్ బేరింగ్ ఆన్‌లో ఉన్నప్పుడు మీరు అవుట్‌గోయింగ్ కాల్‌లు చేయలేరు."</string>
