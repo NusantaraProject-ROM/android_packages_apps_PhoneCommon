@@ -31,7 +31,7 @@
     <dimen name="dialpad_horizontal_padding">5dp</dimen>
     <dimen name="dialpad_digits_text_size">34sp</dimen>
     <dimen name="dialpad_digits_text_min_size">24sp</dimen>
-    <dimen name="dialpad_digits_height">64dp</dimen>
+    <dimen name="dialpad_digits_height">60dp</dimen>
     <dimen name="dialpad_digits_padding">16dp</dimen>
     <dimen name="dialpad_digits_menu_left_padding">8dp</dimen>
     <dimen name="dialpad_digits_menu_right_padding">10dp</dimen>
