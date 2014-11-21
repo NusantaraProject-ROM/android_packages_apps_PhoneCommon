@@ -65,7 +65,7 @@
     <LinearLayout
         android:id="@+id/digits_container"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dialpad_digits_height"
+        android:layout_height="@dimen/dialpad_digits_adjustable_height"
         android:orientation="horizontal">
 
         <ImageButton android:id="@+id/dialpad_overflow"
@@ -92,13 +92,13 @@
             android:gravity="center"
             android:background="@android:color/transparent"
             android:maxLines="1"
-            android:textSize="@dimen/dialpad_digits_text_size"
+            android:textSize="@dimen/dialpad_digits_adjustable_text_size"
             android:freezesText="true"
             android:focusableInTouchMode="true"
             android:cursorVisible="false"
             android:textColor="@color/dialpad_digits_text_color"
             android:textCursorDrawable="@null"
-            android:fontFamily="sans-serif-light"
+            android:fontFamily="sans-serif"
             android:textStyle="normal"
             ex:resizing_text_min_size="@dimen/dialpad_digits_text_min_size" />
 
