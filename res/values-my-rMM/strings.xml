@@ -41,13 +41,13 @@
     <!-- no translation found for callFailed_out_of_network (6970725831030399542) -->
     <skip />
     <string name="callFailed_server_error" msgid="1391421251190688379">"ဆာဗာ အမှား။ နောင်မှာ ပြန်ကြိုးစားပါ"</string>
-    <string name="callFailed_noSignal" msgid="1758972490451048086">"ထုတ်လွှင့်မှု မရှိပါ"</string>
-    <string name="callFailed_limitExceeded" msgid="8796663077702587664">"ACM ကန့်သတ်ချက်ကို ​ ကျော်လွန်နေ"</string>
+    <string name="callFailed_noSignal" msgid="1758972490451048086">"ထုတ်လွှင့်မှု မရှိပါ"</string>
+    <string name="callFailed_limitExceeded" msgid="8796663077702587664">"ACM ကန့်သတ်ချက်ကို ​ ကျော်လွန်နေ"</string>
     <string name="callFailed_powerOff" msgid="9179061328562234362">"ရေဒီယို ပိတ်ထား"</string>
     <string name="callFailed_simError" msgid="3307159523385380486">"ဆင်းမ် မရှိ သို့မဟုတ် ဆင်းမ် အမှား"</string>
     <!-- no translation found for callFailed_outOfService (4535901975891969115) -->
     <skip />
-    <string name="callFailed_fdn_only" msgid="1720606112619022283">"အထွက် ခေါ်ဆိုမှုများကို FDN မှ ကန့်သတ်ထားပါသည်။"</string>
+    <string name="callFailed_fdn_only" msgid="1720606112619022283">"အထွက် ခေါ်ဆိုမှုများကို FDN မှ ကန့်သတ်ထားပါသည်။"</string>
     <!-- no translation found for callFailed_cb_enabled (4745550615395092407) -->
     <skip />
     <!-- no translation found for callFailed_dsac_restricted (4087941056515103695) -->
