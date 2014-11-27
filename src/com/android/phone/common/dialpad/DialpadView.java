@@ -38,6 +38,8 @@ import android.widget.TextView;
 import com.android.phone.common.R;
 import com.android.phone.common.animation.AnimUtils;
 
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.util.Locale;
 
 /**
@@ -115,12 +117,6 @@ public class DialpadView extends LinearLayout {
     }
 
     private void setupKeypad() {
-        final int[] numberIds = new int[] {R.string.dialpad_0_number, R.string.dialpad_1_number,
-                R.string.dialpad_2_number, R.string.dialpad_3_number, R.string.dialpad_4_number,
-                R.string.dialpad_5_number, R.string.dialpad_6_number, R.string.dialpad_7_number,
-                R.string.dialpad_8_number, R.string.dialpad_9_number, R.string.dialpad_star_number,
-                R.string.dialpad_pound_number};
-
         final int[] letterIds = new int[] {R.string.dialpad_0_letters, R.string.dialpad_1_letters,
                 R.string.dialpad_2_letters, R.string.dialpad_3_letters, R.string.dialpad_4_letters,
                 R.string.dialpad_5_letters, R.string.dialpad_6_letters, R.string.dialpad_7_letters,
@@ -133,11 +129,30 @@ public class DialpadView extends LinearLayout {
         TextView numberView;
         TextView lettersView;
 
+        final Locale currentLocale = resources.getConfiguration().locale;
+        final NumberFormat nf;
+        // We translate dialpad numbers only for "fa" and not any other locale
+        // ("ar" anybody ?).
+        if ("fa".equals(currentLocale.getLanguage())) {
+            nf = DecimalFormat.getInstance(resources.getConfiguration().locale);
+        } else {
+            nf = DecimalFormat.getInstance(Locale.ENGLISH);
+        }
+
         for (int i = 0; i < mButtonIds.length; i++) {
             dialpadKey = (DialpadKeyButton) findViewById(mButtonIds[i]);
             numberView = (TextView) dialpadKey.findViewById(R.id.dialpad_key_number);
             lettersView = (TextView) dialpadKey.findViewById(R.id.dialpad_key_letters);
-            final String numberString = resources.getString(numberIds[i]);
+
+            final String numberString;
+            if (mButtonIds[i] == R.id.pound) {
+                numberString = resources.getString(R.string.dialpad_pound_number);
+            } else if (mButtonIds[i] == R.id.star) {
+                numberString = resources.getString(R.string.dialpad_star_number);
+            } else {
+                numberString = nf.format(i);
+            }
+
             final RippleDrawable rippleBackground =
                     (RippleDrawable) getContext().getDrawable(R.drawable.btn_dialpad_key);
             if (mRippleColor != null) {
