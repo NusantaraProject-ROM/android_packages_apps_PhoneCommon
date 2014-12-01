@@ -44,7 +44,7 @@
     <string name="callFailed_limitExceeded" msgid="8796663077702587664">"已超過 ACM 上限"</string>
     <string name="callFailed_powerOff" msgid="9179061328562234362">"無線電已關閉"</string>
     <string name="callFailed_simError" msgid="3307159523385380486">"沒有 SIM 卡或 SIM 卡發生錯誤"</string>
-    <string name="callFailed_outOfService" msgid="4535901975891969115">"無法連線至行動網路"</string>
+    <string name="callFailed_outOfService" msgid="4535901975891969115">"無法連上行動網路"</string>
     <string name="callFailed_fdn_only" msgid="1720606112619022283">"撥出通話受固定撥號限制。"</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"通話限制設定開啟時無法撥打電話。"</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"受到存取控制設定限制而無法撥打電話。"</string>
