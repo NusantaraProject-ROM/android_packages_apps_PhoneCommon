@@ -17,16 +17,6 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="dialpad_0_number" msgid="9125850639884993690">"0"</string>
-    <string name="dialpad_1_number" msgid="761747742902363751">"1"</string>
-    <string name="dialpad_2_number" msgid="4473872718353086388">"2"</string>
-    <string name="dialpad_3_number" msgid="2631223250001985194">"3"</string>
-    <string name="dialpad_4_number" msgid="5209564123577292452">"4"</string>
-    <string name="dialpad_5_number" msgid="5634625806116989866">"5"</string>
-    <string name="dialpad_6_number" msgid="799658410454143963">"6"</string>
-    <string name="dialpad_7_number" msgid="6998407956591315524">"7"</string>
-    <string name="dialpad_8_number" msgid="7956944519599432140">"8"</string>
-    <string name="dialpad_9_number" msgid="9074552572438193202">"9"</string>
     <string name="description_dialpad_overflow" msgid="4853244877599437286">"Meer opsies"</string>
     <string name="description_delete_button" msgid="88733669653753441">"terugvee"</string>
     <string name="description_image_button_plus" msgid="7821061347207448362">"plus"</string>
@@ -38,7 +28,7 @@
     <string name="callFailed_server_unreachable" msgid="4766146133909799091">"Bediener onbereikbaar"</string>
     <string name="callFailed_number_unreachable" msgid="1243366438388873914">"Nommer onbereikbaar"</string>
     <string name="callFailed_invalid_credentials" msgid="6115412108261660271">"Verkeerde gebruikernaam of wagwoord"</string>
-    <string name="callFailed_out_of_network" msgid="6970725831030399542">"Oproep buite netwerk"</string>
+    <string name="callFailed_out_of_network" msgid="6970725831030399542">"Oproep van buite netwerk"</string>
     <string name="callFailed_server_error" msgid="1391421251190688379">"Bedienerfout. Probeer later weer."</string>
     <string name="callFailed_noSignal" msgid="1758972490451048086">"Geen sein"</string>
     <string name="callFailed_limitExceeded" msgid="8796663077702587664">"ACM-grens oorskry"</string>

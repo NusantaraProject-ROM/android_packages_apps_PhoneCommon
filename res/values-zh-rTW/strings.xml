@@ -17,16 +17,6 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="dialpad_0_number" msgid="9125850639884993690">"0"</string>
-    <string name="dialpad_1_number" msgid="761747742902363751">"1"</string>
-    <string name="dialpad_2_number" msgid="4473872718353086388">"2"</string>
-    <string name="dialpad_3_number" msgid="2631223250001985194">"3"</string>
-    <string name="dialpad_4_number" msgid="5209564123577292452">"4"</string>
-    <string name="dialpad_5_number" msgid="5634625806116989866">"5"</string>
-    <string name="dialpad_6_number" msgid="799658410454143963">"6"</string>
-    <string name="dialpad_7_number" msgid="6998407956591315524">"7"</string>
-    <string name="dialpad_8_number" msgid="7956944519599432140">"8"</string>
-    <string name="dialpad_9_number" msgid="9074552572438193202">"9"</string>
     <string name="description_dialpad_overflow" msgid="4853244877599437286">"更多選項"</string>
     <string name="description_delete_button" msgid="88733669653753441">"Backspace 鍵"</string>
     <string name="description_image_button_plus" msgid="7821061347207448362">"加號"</string>
@@ -44,7 +34,7 @@
     <string name="callFailed_limitExceeded" msgid="8796663077702587664">"已超過 ACM 上限"</string>
     <string name="callFailed_powerOff" msgid="9179061328562234362">"無線電已關閉"</string>
     <string name="callFailed_simError" msgid="3307159523385380486">"沒有 SIM 卡或 SIM 卡發生錯誤"</string>
-    <string name="callFailed_outOfService" msgid="4535901975891969115">"無法連線至行動網路"</string>
+    <string name="callFailed_outOfService" msgid="4535901975891969115">"無法連上行動網路"</string>
     <string name="callFailed_fdn_only" msgid="1720606112619022283">"撥出通話受固定撥號限制。"</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"通話限制設定開啟時無法撥打電話。"</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"受到存取控制設定限制而無法撥打電話。"</string>
