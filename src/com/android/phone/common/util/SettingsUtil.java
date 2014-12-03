@@ -58,15 +58,11 @@ public class SettingsUtil {
      * @param context The application context.
      * @param handler The handler, which takes the name of the ringtone as a String as a parameter.
      * @param type The type of sound.
-     * @param preference The preference being updated.
+     * @param key The key to the shared preferences entry being updated.
      * @param msg An integer identifying the message sent to the handler.
      */
     public static void updateRingtoneName(
-            Context context, Handler handler, int type, Preference preference, int msg) {
-        if (preference == null) {
-            return;
-        }
-
+            Context context, Handler handler, int type, String key, int msg) {
         final Uri ringtoneUri;
         boolean defaultRingtone = false;
         if (type == RingtoneManager.TYPE_RINGTONE) {
@@ -76,7 +72,7 @@ public class SettingsUtil {
         } else {
             final SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
             // For voicemail notifications, we use the value saved in Phone's shared preferences.
-            String uriString = prefs.getString(preference.getKey(), null);
+            String uriString = prefs.getString(key, null);
             if (TextUtils.isEmpty(uriString)) {
                 // silent ringtone
                 ringtoneUri = null;
