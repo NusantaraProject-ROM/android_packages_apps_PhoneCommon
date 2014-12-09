@@ -30,6 +30,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewPropertyAnimator;
+import android.view.accessibility.AccessibilityManager;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
@@ -112,6 +113,13 @@ public class DialpadView extends LinearLayout {
         mRateContainer = (ViewGroup) findViewById(R.id.rate_container);
         mIldCountry = (TextView) mRateContainer.findViewById(R.id.ild_country);
         mIldRate = (TextView) mRateContainer.findViewById(R.id.ild_rate);
+
+        AccessibilityManager accessibilityManager = (AccessibilityManager)
+                getContext().getSystemService(Context.ACCESSIBILITY_SERVICE);
+        if (accessibilityManager.isEnabled()) {
+            // The text view must be selected to send accessibility events.
+            mDigits.setSelected(true);
+        }
     }
 
     private void setupKeypad() {
