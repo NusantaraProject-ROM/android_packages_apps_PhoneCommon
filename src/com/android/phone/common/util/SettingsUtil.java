@@ -37,21 +37,6 @@ import java.lang.String;
 
 public class SettingsUtil {
     /**
-     * Obtain the setting for "vibrate when ringing" setting.
-     *
-     * Watch out: if the setting is missing in the device, this will try obtaining the old
-     * "vibrate on ring" setting from AudioManager, and save the previous setting to the new one.
-     */
-    public static boolean getVibrateWhenRingingSetting(Context context) {
-        Vibrator vibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
-        if (vibrator == null || !vibrator.hasVibrator()) {
-            return false;
-        }
-        return Settings.System.getInt(context.getContentResolver(),
-                Settings.System.VIBRATE_WHEN_RINGING, 0) != 0;
-    }
-
-    /**
      * Queries for a ringtone name, and sets the name using a handler.
      * This is a method was originally copied from com.android.settings.SoundSettings.
      *
@@ -88,10 +73,10 @@ public class SettingsUtil {
                 }
             }
         }
-        CharSequence summary = context.getString(com.android.internal.R.string.ringtone_unknown);
+        CharSequence summary = context.getString(R.string.ringtone_unknown);
         // Is it a silent ringtone?
         if (ringtoneUri == null) {
-            summary = context.getString(com.android.internal.R.string.ringtone_silent);
+            summary = context.getString(R.string.ringtone_silent);
         } else {
             // Fetch the ringtone title from the media provider
             try {
