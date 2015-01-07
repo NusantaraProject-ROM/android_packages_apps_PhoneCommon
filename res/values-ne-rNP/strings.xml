@@ -42,4 +42,6 @@
     <string name="callFailed_dsac_restricted_normal" msgid="266947632344387216">"पहुँच नियन्त्रणमार्फत सामान्य कलहरू प्रतिबन्धित।"</string>
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"अमान्य सङ्ख्या"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"भ्वाइसमेल नम्बर अज्ञात छ।"</string>
+    <string name="ringtone_silent" msgid="249805466934178869">"कुनैपनि होइन"</string>
+    <string name="ringtone_unknown" msgid="2303463713486734520">"अज्ञात रिङटोन"</string>
 </resources>

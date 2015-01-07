@@ -42,4 +42,6 @@
     <string name="callFailed_dsac_restricted_normal" msgid="266947632344387216">"Звичайні дзвінки обмежено контролем доступу."</string>
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"Недійсний номер"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"Невідомий номер голосової пошти."</string>
+    <string name="ringtone_silent" msgid="249805466934178869">"Немає"</string>
+    <string name="ringtone_unknown" msgid="2303463713486734520">"Невідомий сигнал дзвінка"</string>
 </resources>
