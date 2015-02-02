@@ -35,7 +35,7 @@
     <string name="callFailed_powerOff" msgid="9179061328562234362">"Rádió kikapcsolva"</string>
     <string name="callFailed_simError" msgid="3307159523385380486">"Hiányzó vagy hibás SIM kártya"</string>
     <string name="callFailed_outOfService" msgid="4535901975891969115">"A mobilhálózat nem érhető el"</string>
-    <string name="callFailed_fdn_only" msgid="1720606112619022283">"Az FDN korlátozza a kimenő hívásokat."</string>
+    <string name="callFailed_fdn_only" msgid="1720606112619022283">"A fix hívószám korlátozza a kimenő hívásokat."</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"Nem kezdeményezhető kimenő hívás addig, amíg a hívásletiltás be van kapcsolva."</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"A hozzáférés-vezérlés korlátozza a hívásokat."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"A hozzáférés-vezérlés korlátozza a vészhívásokat."</string>
