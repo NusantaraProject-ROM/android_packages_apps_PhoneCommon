@@ -33,7 +33,7 @@
     <string name="callFailed_noSignal" msgid="1758972490451048086">"لا إشارة"</string>
     <string name="callFailed_limitExceeded" msgid="8796663077702587664">"‏تم تجاوز حد ACM"</string>
     <string name="callFailed_powerOff" msgid="9179061328562234362">"اللاسلكي متوقف"</string>
-    <string name="callFailed_simError" msgid="3307159523385380486">"‏لا تتوفر بطاقة SIM أو حدث خطأ في البطاقة"</string>
+    <string name="callFailed_simError" msgid="3307159523385380486">"‏لا تتوفر شريحة SIM أو حدث خطأ في البطاقة"</string>
     <string name="callFailed_outOfService" msgid="4535901975891969115">"الشبكة الخلوية ليست متاحة"</string>
     <string name="callFailed_fdn_only" msgid="1720606112619022283">"‏يتم تقييد المكالمات الصادرة بواسطة FDN."</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"يتعذر إجراء مكالمات صادرة أثناء تشغيل منع الاتصال."</string>
