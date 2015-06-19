@@ -153,12 +153,21 @@ public class DialpadView extends LinearLayout {
             lettersView = (TextView) dialpadKey.findViewById(R.id.dialpad_key_letters);
 
             final String numberString;
+            final String numberContentDescription;
             if (mButtonIds[i] == R.id.pound) {
                 numberString = resources.getString(R.string.dialpad_pound_number);
+                numberContentDescription = numberString;
             } else if (mButtonIds[i] == R.id.star) {
                 numberString = resources.getString(R.string.dialpad_star_number);
+                numberContentDescription = numberString;
             } else {
                 numberString = nf.format(i);
+                // The content description is used for announcements on key
+                // press when TalkBack is enabled. They contain a ","
+                // (to introduce a slight delay) followed by letters
+                // corresponding to the keys in addition to the number.
+                numberContentDescription = numberString + "," +
+                    resources.getString(letterIds[i]);
             }
 
             final RippleDrawable rippleBackground =
@@ -169,7 +178,7 @@ public class DialpadView extends LinearLayout {
 
             numberView.setText(numberString);
             numberView.setElegantTextHeight(false);
-            dialpadKey.setContentDescription(numberString);
+            dialpadKey.setContentDescription(numberContentDescription);
             dialpadKey.setBackground(rippleBackground);
 
             if (lettersView != null) {
