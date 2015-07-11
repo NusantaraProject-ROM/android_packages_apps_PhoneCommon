@@ -33,7 +33,7 @@
     <string name="callFailed_noSignal" msgid="1758972490451048086">"Signal yo‘q"</string>
     <string name="callFailed_limitExceeded" msgid="8796663077702587664">"ACM cheklovdan oshib ketdi"</string>
     <string name="callFailed_powerOff" msgid="9179061328562234362">"Radio o‘chirilgan"</string>
-    <string name="callFailed_simError" msgid="3307159523385380486">"SIM karta yo‘q yoki SIM kartada xato"</string>
+    <string name="callFailed_simError" msgid="3307159523385380486">"SIM-karta yo‘q yoki SIM-kartada xato"</string>
     <string name="callFailed_outOfService" msgid="4535901975891969115">"Uyali tarmoq mavjud emas"</string>
     <string name="callFailed_fdn_only" msgid="1720606112619022283">"Chiquvchi qo‘ng‘iroqlar FDN tomonidan cheklab qo‘yilgan."</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"Qo‘ng‘iroqlarni taqiqlash funksiyasi yoniqligida chiqish qo‘ng‘iroqlarini amalga oshirib bo‘lmaydi."</string>
