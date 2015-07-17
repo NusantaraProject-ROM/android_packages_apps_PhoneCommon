@@ -20,6 +20,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteException;
+import android.media.Ringtone;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Handler;
@@ -82,17 +83,16 @@ public class SettingsUtil {
             summary = context.getString(R.string.ringtone_silent);
         } else {
             // Fetch the ringtone title from the media provider
-            try {
-                Cursor cursor = context.getContentResolver().query(ringtoneUri,
-                        new String[] { MediaStore.Audio.Media.TITLE }, null, null, null);
-                if (cursor != null) {
-                    if (cursor.moveToFirst()) {
-                        summary = cursor.getString(0);
+            final Ringtone ringtone = RingtoneManager.getRingtone(context, ringtoneUri);
+            if (ringtone != null) {
+                try {
+                    final String title = ringtone.getTitle(context);
+                    if (!TextUtils.isEmpty(title)) {
+                        summary = title;
                     }
-                    cursor.close();
+                } catch (SQLiteException sqle) {
+                    // Unknown title for the ringtone
                 }
-            } catch (SQLiteException sqle) {
-                // Unknown title for the ringtone
             }
         }
         if (defaultRingtone) {
