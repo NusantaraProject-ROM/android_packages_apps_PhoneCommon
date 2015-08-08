@@ -29,7 +29,7 @@
     <string name="callFailed_number_unreachable" msgid="1243366438388873914">"Numărul nu poate fi contactat"</string>
     <string name="callFailed_invalid_credentials" msgid="6115412108261660271">"Nume de utilizator sau parolă incorecte"</string>
     <string name="callFailed_out_of_network" msgid="6970725831030399542">"Apel din afara rețelei"</string>
-    <string name="callFailed_server_error" msgid="1391421251190688379">"Eroare de server. Încercaţi din nou mai târziu."</string>
+    <string name="callFailed_server_error" msgid="1391421251190688379">"Eroare de server. Încercați din nou mai târziu."</string>
     <string name="callFailed_noSignal" msgid="1758972490451048086">"Niciun semnal"</string>
     <string name="callFailed_limitExceeded" msgid="8796663077702587664">"Limită ACM depăşită"</string>
     <string name="callFailed_powerOff" msgid="9179061328562234362">"Radio oprit"</string>
