@@ -36,6 +36,9 @@
     <string name="callFailed_simError" msgid="3307159523385380486">"Нема SIM картице или постоји грешка на њој"</string>
     <string name="callFailed_outOfService" msgid="4535901975891969115">"Мобилна мрежа није доступна"</string>
     <string name="callFailed_fdn_only" msgid="1720606112619022283">"Број за фиксно бирање је ограничио одлазне позиве."</string>
+    <string name="callFailed_dialToUssd" msgid="2093563828737170617">"DIAL захтев је промењен у USSD захтев."</string>
+    <string name="callFailed_dialToSs" msgid="3144952834772702469">"DIAL захтев је промењен у SS захтев."</string>
+    <string name="callFailed_dialToDial" msgid="1143052062100334634">"DIAL захтев је промењен у DIAL захтев са другачијим бројем."</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"Није могуће упућивати одлазне позиве док је укључено ограничавање позива."</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"Позиви су ограничени контролом приступа."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"Хитни позиви су ограничени контролом приступа."</string>

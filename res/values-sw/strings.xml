@@ -36,6 +36,9 @@
     <string name="callFailed_simError" msgid="3307159523385380486">"Hakuna SIM au kuna hitilafu ya SIM"</string>
     <string name="callFailed_outOfService" msgid="4535901975891969115">"Mtandao wa simu za mkononi haupatikani"</string>
     <string name="callFailed_fdn_only" msgid="1720606112619022283">"Simu zinazopigwa zimezuiwa na FDN"</string>
+    <string name="callFailed_dialToUssd" msgid="2093563828737170617">"Ombi la DIAL limebadilishwa kuwa ombi la USSD."</string>
+    <string name="callFailed_dialToSs" msgid="3144952834772702469">"Ombi la DIAL limebadilishwa kuwa ombi la SS."</string>
+    <string name="callFailed_dialToDial" msgid="1143052062100334634">"Ombi la DIAL limebadilishwa kuwa ombi la DIAL lenye nambari tofauti."</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"Haiwezi kupiga simu za kutoka wakati uzuiaji wa simu umewashwa."</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"Simu zimewekewa vizuizi na kidhibiti cha idhini ya kufikia."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"Simu za dharura zimewekewa vizuizi na kidhibiti cha idhini ya kufikia."</string>
