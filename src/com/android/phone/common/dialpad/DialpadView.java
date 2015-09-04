@@ -23,7 +23,9 @@ import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.graphics.drawable.RippleDrawable;
+import android.text.Spannable;
 import android.text.TextUtils;
+import android.text.style.TtsSpan;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
@@ -125,11 +127,20 @@ public class DialpadView extends LinearLayout {
     }
 
     private void setupKeypad() {
-        final int[] letterIds = new int[] {R.string.dialpad_0_letters, R.string.dialpad_1_letters,
-                R.string.dialpad_2_letters, R.string.dialpad_3_letters, R.string.dialpad_4_letters,
-                R.string.dialpad_5_letters, R.string.dialpad_6_letters, R.string.dialpad_7_letters,
-                R.string.dialpad_8_letters, R.string.dialpad_9_letters,
-                R.string.dialpad_star_letters, R.string.dialpad_pound_letters};
+        final int[] letterIds = new int[] {
+            R.string.dialpad_0_letters,
+            R.string.dialpad_1_letters,
+            R.string.dialpad_2_letters,
+            R.string.dialpad_3_letters,
+            R.string.dialpad_4_letters,
+            R.string.dialpad_5_letters,
+            R.string.dialpad_6_letters,
+            R.string.dialpad_7_letters,
+            R.string.dialpad_8_letters,
+            R.string.dialpad_9_letters,
+            R.string.dialpad_star_letters,
+            R.string.dialpad_pound_letters
+        };
 
         final Resources resources = getContext().getResources();
 
@@ -153,7 +164,7 @@ public class DialpadView extends LinearLayout {
             lettersView = (TextView) dialpadKey.findViewById(R.id.dialpad_key_letters);
 
             final String numberString;
-            final String numberContentDescription;
+            final CharSequence numberContentDescription;
             if (mButtonIds[i] == R.id.pound) {
                 numberString = resources.getString(R.string.dialpad_pound_number);
                 numberContentDescription = numberString;
@@ -162,12 +173,18 @@ public class DialpadView extends LinearLayout {
                 numberContentDescription = numberString;
             } else {
                 numberString = nf.format(i);
-                // The content description is used for announcements on key
-                // press when TalkBack is enabled. They contain a ","
-                // (to introduce a slight delay) followed by letters
-                // corresponding to the keys in addition to the number.
-                numberContentDescription = numberString + "," +
-                    resources.getString(letterIds[i]);
+                // The content description is used for Talkback key presses. The number is
+                // separated by a "," to introduce a slight delay. Convert letters into a verbatim
+                // span so that they are read as letters instead of as one word.
+                String letters = resources.getString(letterIds[i]);
+                Spannable spannable =
+                        Spannable.Factory.getInstance().newSpannable(numberString + "," + letters);
+                spannable.setSpan(
+                        (new TtsSpan.VerbatimBuilder(letters)).build(),
+                        numberString.length() + 1,
+                        numberString.length() + 1 + letters.length(),
+                        Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                numberContentDescription = spannable;
             }
 
             final RippleDrawable rippleBackground =
