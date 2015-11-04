@@ -36,6 +36,9 @@
     <string name="callFailed_simError" msgid="3307159523385380486">"SIMがない、またはSIMエラー"</string>
     <string name="callFailed_outOfService" msgid="4535901975891969115">"モバイルネットワークが利用できません"</string>
     <string name="callFailed_fdn_only" msgid="1720606112619022283">"発信は発信番号制限によって制限されています。"</string>
+    <string name="callFailed_dialToUssd" msgid="2093563828737170617">"DIALリクエストはUSSDリクエストに変更されました。"</string>
+    <string name="callFailed_dialToSs" msgid="3144952834772702469">"DIALリクエストはSSリクエストに変更されました。"</string>
+    <string name="callFailed_dialToDial" msgid="1143052062100334634">"DIALリクエストは別の番号のDIALに変更されました。"</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"通話制限中は発信できません。"</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"通話の発信制限が設定されています。"</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"緊急通報の発信制限が設定されています。"</string>
