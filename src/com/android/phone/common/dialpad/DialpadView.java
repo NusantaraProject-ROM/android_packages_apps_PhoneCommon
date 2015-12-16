@@ -22,7 +22,9 @@ import android.content.res.ColorStateList;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
+import android.graphics.drawable.Drawable;
 import android.graphics.drawable.RippleDrawable;
+import android.os.Build;
 import android.text.Spannable;
 import android.text.TextUtils;
 import android.text.style.TtsSpan;
@@ -187,8 +189,8 @@ public class DialpadView extends LinearLayout {
                 numberContentDescription = spannable;
             }
 
-            final RippleDrawable rippleBackground =
-                    (RippleDrawable) getContext().getDrawable(R.drawable.btn_dialpad_key);
+            final RippleDrawable rippleBackground = (RippleDrawable)
+                    getDrawableCompat(getContext(), R.drawable.btn_dialpad_key);
             if (mRippleColor != null) {
                 rippleBackground.setColor(mRippleColor);
             }
@@ -211,6 +213,14 @@ public class DialpadView extends LinearLayout {
         zero.setLongHoverContentDescription(
                 resources.getText(R.string.description_image_button_plus));
 
+    }
+
+    private Drawable getDrawableCompat(Context context, int id) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            return context.getDrawable(id);
+        } else {
+            return context.getResources().getDrawable(id);
+        }
     }
 
     public void setShowVoicemailButton(boolean show) {
