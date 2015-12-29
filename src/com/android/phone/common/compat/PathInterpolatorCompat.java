@@ -18,15 +18,14 @@ package com.android.phone.common.compat;
 
 import android.graphics.Path;
 import android.graphics.PathMeasure;
+import android.os.Build;
 import android.view.animation.Interpolator;
 import android.view.animation.PathInterpolator;
-
-import com.android.contacts.common.compat.CompatUtils;
 
 public class PathInterpolatorCompat {
     public static Interpolator create(float controlX1, float controlY1,
             float controlX2, float controlY2) {
-        if (CompatUtils.isLollipopCompatible()) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             return new PathInterpolator(controlX1, controlY1, controlX2, controlY2);
         }
         return new PathInterpolatorBase(controlX1, controlY1, controlX2, controlY2);
