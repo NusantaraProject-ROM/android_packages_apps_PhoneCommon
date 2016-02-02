@@ -36,6 +36,9 @@
     <string name="callFailed_simError" msgid="3307159523385380486">"沒有 SIM 卡或 SIM 卡發生錯誤"</string>
     <string name="callFailed_outOfService" msgid="4535901975891969115">"無法連上行動網路"</string>
     <string name="callFailed_fdn_only" msgid="1720606112619022283">"撥出通話受固定撥號限制。"</string>
+    <string name="callFailed_dialToUssd" msgid="2093563828737170617">"DIAL 要求已改為 USSD 要求。"</string>
+    <string name="callFailed_dialToSs" msgid="3144952834772702469">"DIAL 要求已改為 SS 要求。"</string>
+    <string name="callFailed_dialToDial" msgid="1143052062100334634">"DIAL 要求已改為不同號碼的 DIAL。"</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"通話限制設定開啟時無法撥打電話。"</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"受到存取控制設定限制而無法撥打電話。"</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"受到存取控制設定限制而無法撥打緊急電話。"</string>

@@ -36,6 +36,9 @@
     <string name="callFailed_simError" msgid="3307159523385380486">"‏کوئی SIM نہیں ہے یا SIM میں خرابی ہے"</string>
     <string name="callFailed_outOfService" msgid="4535901975891969115">"سیلولر نیٹ ورک دستیاب نہیں ہے"</string>
     <string name="callFailed_fdn_only" msgid="1720606112619022283">"‏آؤٹ گوئنگ کالیں FDN کے ذریعہ ممنوع ہیں۔"</string>
+    <string name="callFailed_dialToUssd" msgid="2093563828737170617">"‏DIAL درخواست میں ترمیم کر کے USSD درخواست بنا دی گئی ہے۔"</string>
+    <string name="callFailed_dialToSs" msgid="3144952834772702469">"‏DIAL درخواست میں ترمیم کر کے SS درخواست بنا دی گئی ہے۔"</string>
+    <string name="callFailed_dialToDial" msgid="1143052062100334634">"‏DIAL درخواست میں ترمیم کر کے مختلف نمبر کے ساتھ DIAL بنا دی گئی ہے۔"</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"کال کی بندش آن ہونے پر آؤٹ گوئنگ کالز نہیں کر سکتے۔"</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"کالز رسائی کنٹرول کے ذریعہ محدود کر دی گئیں۔"</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"ہنگامی کالز رسائی کنٹرول کے ذریعہ محدود کر دی گئیں۔"</string>
