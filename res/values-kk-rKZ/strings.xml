@@ -36,6 +36,9 @@
     <string name="callFailed_simError" msgid="3307159523385380486">"SIM жоқ немесе SIM қатесі"</string>
     <string name="callFailed_outOfService" msgid="4535901975891969115">"Ұялы желі қол жетімді емес"</string>
     <string name="callFailed_fdn_only" msgid="1720606112619022283">"Шығыс қоңыраулары тұрақты теру нөмірі (ТТН) арқылы шектелген."</string>
+    <string name="callFailed_dialToUssd" msgid="2093563828737170617">"DIAL сұрауы USSD сұрауына өзгертілді."</string>
+    <string name="callFailed_dialToSs" msgid="3144952834772702469">"DIAL сұрауы SS сұрауына өзгертілді."</string>
+    <string name="callFailed_dialToDial" msgid="1143052062100334634">"DIAL сұрауы басқа нөмір бар DIAL сұрауына өзгертілді."</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"Тыйым салу қосулы кезде шығыс қоңыраулар шалу мүмкін емес."</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"Қатынасты басқару қоңырауларды шектеген."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"Қатынасты басқару жедел қоңырауларды шектеген."</string>

@@ -36,6 +36,9 @@
     <string name="callFailed_simError" msgid="3307159523385380486">"Нема СИМ или грешка на СИМ"</string>
     <string name="callFailed_outOfService" msgid="4535901975891969115">"Не е достапна мобилна мрежа"</string>
     <string name="callFailed_fdn_only" msgid="1720606112619022283">"Појдовните повици се ограничени со FDN."</string>
+    <string name="callFailed_dialToUssd" msgid="2093563828737170617">"Барањето DIAL е изменето во барање USSD."</string>
+    <string name="callFailed_dialToSs" msgid="3144952834772702469">"Барањето DIAL е изменето во барање SS."</string>
+    <string name="callFailed_dialToDial" msgid="1143052062100334634">"Барањето DIAL е изменето во DIAL со различен број."</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"Не може да направи појдовни повици додека е вклучена забрана на повик."</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"Повиците се ограничени со контрола на пристап."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"Итните повици се ограничени со контрола на пристап."</string>
