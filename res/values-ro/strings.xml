@@ -23,7 +23,7 @@
     <string name="description_voicemail_button" msgid="6281470684653439120">"mesagerie vocală"</string>
     <string name="default_notification_description" msgid="6011631627871110785">"Sunet prestabilit (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
     <string name="callFailed_userBusy" msgid="5163219086553610486">"Linie ocupată"</string>
-    <string name="callFailed_congestion" msgid="3645995103907418337">"Reţea ocupată"</string>
+    <string name="callFailed_congestion" msgid="3645995103907418337">"Rețea ocupată"</string>
     <string name="callFailed_timedOut" msgid="7772951976278867294">"Fără răspuns, durata a expirat"</string>
     <string name="callFailed_server_unreachable" msgid="4766146133909799091">"Server neaccesibil"</string>
     <string name="callFailed_number_unreachable" msgid="1243366438388873914">"Numărul nu poate fi contactat"</string>
@@ -45,6 +45,7 @@
     <string name="callFailed_dsac_restricted_normal" msgid="266947632344387216">"Apelurile normale sunt restricționate de controlul de acces."</string>
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"Număr nevalid"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"Număr de mesagerie vocală necunoscut."</string>
+    <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"Nu se pot iniția apeluri video când funcția TTY este activată."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Niciunul"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Ton de apel necunoscut"</string>
 </resources>

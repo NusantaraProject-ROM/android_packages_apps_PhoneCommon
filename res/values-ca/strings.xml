@@ -45,6 +45,7 @@
     <string name="callFailed_dsac_restricted_normal" msgid="266947632344387216">"El control d\'accés restringeix les trucades estàndard."</string>
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"Número no vàlid"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"El número de la bústia de veu és desconegut."</string>
+    <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"No es poden fer videotrucades quan el dispositiu TTY està activat."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Cap"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"So de trucada desconegut"</string>
 </resources>

@@ -45,6 +45,7 @@
     <string name="callFailed_dsac_restricted_normal" msgid="266947632344387216">"Panggilan telepon biasa dibatasi oleh kontrol akses."</string>
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"Nomor tidak valid"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"Nomor pesan suara tidak diketahui."</string>
+    <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"Tidak dapat melakukan panggilan video jika TTY diaktifkan."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Tidak ada"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Nada dering tidak dikenal"</string>
 </resources>

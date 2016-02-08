@@ -45,6 +45,7 @@
     <string name="callFailed_dsac_restricted_normal" msgid="266947632344387216">"ઍક્સેસ નિયંત્રણ દ્વારા સામાન્ય કૉલ્સ પ્રતિબંધિત કરાયેલ છે."</string>
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"અમાન્ય નંબર"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"વૉઇસમેઇલ નંબર અજાણ."</string>
+    <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"જ્યારે TTY સક્ષમ કરેલ હોય ત્યારે વિડિઓ કૉલ્સ કરી શકતાં નથી."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"કોઈ નહીં"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"અજાણ રિંગટોન"</string>
 </resources>
