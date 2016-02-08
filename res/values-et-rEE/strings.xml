@@ -45,6 +45,7 @@
     <string name="callFailed_dsac_restricted_normal" msgid="266947632344387216">"Tavaline kõned on piiratud juurdepääsu juhtimise abil."</string>
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"Vale number"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"Kõneposti number pole teada."</string>
+    <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"Videokõnesid ei saa teha, kui TTY on lubatud."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Puudub"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Tundmatu helin"</string>
 </resources>

@@ -45,6 +45,7 @@
     <string name="callFailed_dsac_restricted_normal" msgid="266947632344387216">"Normale Anrufe werden durch die Zugriffssteuerung beschränkt."</string>
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"Ungültige Nummer"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"Mailboxnummer unbekannt"</string>
+    <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"Wenn ein TTY-Gerät aktiviert ist, sind keine Videoanrufe möglich."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Ohne"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Unbekannter Klingelton"</string>
 </resources>

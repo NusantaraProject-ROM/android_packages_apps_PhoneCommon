@@ -45,6 +45,8 @@
     <string name="callFailed_dsac_restricted_normal" msgid="266947632344387216">"Amakholi ajwayelekile akhawulelwe wukulawula kokufinyelela."</string>
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"Inombolo engavumelekile"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"Inombolo yevoyisimeyili ayaziwa."</string>
+    <!-- no translation found for callFailed_video_call_tty_enabled (186585701668604271) -->
+    <skip />
     <string name="ringtone_silent" msgid="249805466934178869">"Lutho"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Ithoni yokukhala engaziwa"</string>
 </resources>
