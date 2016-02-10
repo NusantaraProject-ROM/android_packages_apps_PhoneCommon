@@ -45,8 +45,7 @@
     <string name="callFailed_dsac_restricted_normal" msgid="266947632344387216">"இயல்பான அழைப்புகள் அணுகல் கட்டுப்பாட்டினால் தடைசெய்யப்பட்டுள்ளன."</string>
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"எண் தவறானது"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"குரலஞ்சல் எண் அறியப்படாதது."</string>
-    <!-- no translation found for callFailed_video_call_tty_enabled (186585701668604271) -->
-    <skip />
+    <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"TTY இயக்கப்பட்டிருக்கும் போது, வீடியோ அழைப்புகளைச் செய்ய முடியாது."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"ஏதுமில்லை"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"அறியப்படாத ரிங்டோன்"</string>
 </resources>
