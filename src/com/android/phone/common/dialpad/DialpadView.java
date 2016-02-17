@@ -326,53 +326,77 @@ public class DialpadView extends LinearLayout {
     private int getKeyButtonAnimationDelay(int buttonId) {
         if (mIsLandscape) {
             if (mIsRtl) {
-                switch (buttonId) {
-                    case R.id.three: return KEY_FRAME_DURATION * 1;
-                    case R.id.six: return KEY_FRAME_DURATION * 2;
-                    case R.id.nine: return KEY_FRAME_DURATION * 3;
-                    case R.id.pound: return KEY_FRAME_DURATION * 4;
-                    case R.id.two: return KEY_FRAME_DURATION * 5;
-                    case R.id.five: return KEY_FRAME_DURATION * 6;
-                    case R.id.eight: return KEY_FRAME_DURATION * 7;
-                    case R.id.zero: return KEY_FRAME_DURATION * 8;
-                    case R.id.one: return KEY_FRAME_DURATION * 9;
-                    case R.id.four: return KEY_FRAME_DURATION * 10;
-                    case R.id.seven:
-                    case R.id.star:
-                        return KEY_FRAME_DURATION * 11;
+                if (buttonId == R.id.three) {
+                    return KEY_FRAME_DURATION * 1;
+                } else if (buttonId == R.id.six) {
+                    return KEY_FRAME_DURATION * 2;
+                } else if (buttonId == R.id.nine) {
+                    return KEY_FRAME_DURATION * 3;
+                } else if (buttonId == R.id.pound) {
+                    return KEY_FRAME_DURATION * 4;
+                } else if (buttonId == R.id.two) {
+                    return KEY_FRAME_DURATION * 5;
+                } else if (buttonId == R.id.five) {
+                    return KEY_FRAME_DURATION * 6;
+                } else if (buttonId == R.id.eight) {
+                    return KEY_FRAME_DURATION * 7;
+                } else if (buttonId == R.id.zero) {
+                    return KEY_FRAME_DURATION * 8;
+                } else if (buttonId == R.id.one) {
+                    return KEY_FRAME_DURATION * 9;
+                } else if (buttonId == R.id.four) {
+                    return KEY_FRAME_DURATION * 10;
+                } else if (buttonId == R.id.seven || buttonId == R.id.star) {
+                    return KEY_FRAME_DURATION * 11;
                 }
             } else {
-                switch (buttonId) {
-                    case R.id.one: return KEY_FRAME_DURATION * 1;
-                    case R.id.four: return KEY_FRAME_DURATION * 2;
-                    case R.id.seven: return KEY_FRAME_DURATION * 3;
-                    case R.id.star: return KEY_FRAME_DURATION * 4;
-                    case R.id.two: return KEY_FRAME_DURATION * 5;
-                    case R.id.five: return KEY_FRAME_DURATION * 6;
-                    case R.id.eight: return KEY_FRAME_DURATION * 7;
-                    case R.id.zero: return KEY_FRAME_DURATION * 8;
-                    case R.id.three: return KEY_FRAME_DURATION * 9;
-                    case R.id.six: return KEY_FRAME_DURATION * 10;
-                    case R.id.nine:
-                    case R.id.pound:
-                        return KEY_FRAME_DURATION * 11;
+                if (buttonId == R.id.one) {
+                    return KEY_FRAME_DURATION * 1;
+                } else if (buttonId == R.id.four) {
+                    return KEY_FRAME_DURATION * 2;
+                } else if (buttonId == R.id.seven) {
+                    return KEY_FRAME_DURATION * 3;
+                } else if (buttonId == R.id.star) {
+                    return KEY_FRAME_DURATION * 4;
+                } else if (buttonId == R.id.two) {
+                    return KEY_FRAME_DURATION * 5;
+                } else if (buttonId == R.id.five) {
+                    return KEY_FRAME_DURATION * 6;
+                } else if (buttonId == R.id.eight) {
+                    return KEY_FRAME_DURATION * 7;
+                } else if (buttonId == R.id.zero) {
+                    return KEY_FRAME_DURATION * 8;
+                } else if (buttonId == R.id.three) {
+                    return KEY_FRAME_DURATION * 9;
+                } else if (buttonId == R.id.six) {
+                    return KEY_FRAME_DURATION * 10;
+                } else if (buttonId == R.id.nine || buttonId == R.id.pound) {
+                    return KEY_FRAME_DURATION * 11;
                 }
             }
         } else {
-            switch (buttonId) {
-                case R.id.one: return KEY_FRAME_DURATION * 1;
-                case R.id.two: return KEY_FRAME_DURATION * 2;
-                case R.id.three: return KEY_FRAME_DURATION * 3;
-                case R.id.four: return KEY_FRAME_DURATION * 4;
-                case R.id.five: return KEY_FRAME_DURATION * 5;
-                case R.id.six: return KEY_FRAME_DURATION * 6;
-                case R.id.seven: return KEY_FRAME_DURATION * 7;
-                case R.id.eight: return KEY_FRAME_DURATION * 8;
-                case R.id.nine: return KEY_FRAME_DURATION * 9;
-                case R.id.star: return KEY_FRAME_DURATION * 10;
-                case R.id.zero:
-                case R.id.pound:
-                    return KEY_FRAME_DURATION * 11;
+            if (buttonId == R.id.one) {
+                return KEY_FRAME_DURATION * 1;
+            } else if (buttonId == R.id.two) {
+                return KEY_FRAME_DURATION * 2;
+            } else if (buttonId == R.id.three) {
+                return KEY_FRAME_DURATION * 3;
+            } else if (buttonId == R.id.four) {
+                return KEY_FRAME_DURATION * 4;
+            } else if (buttonId == R.id.five) {
+                return KEY_FRAME_DURATION * 5;
+            } else if (buttonId == R.id.six) {
+                return KEY_FRAME_DURATION * 6;
+            } else if (buttonId == R.id.seven) {
+                return KEY_FRAME_DURATION * 7;
+            } else if (buttonId == R.id.eight) {
+                return KEY_FRAME_DURATION * 8;
+            } else if (buttonId == R.id.nine) {
+                return KEY_FRAME_DURATION * 9;
+            } else if (buttonId == R.id.star) {
+                return KEY_FRAME_DURATION * 10;
+            } else if (buttonId == R.id.zero || buttonId == R.id.pound) {
+                return KEY_FRAME_DURATION * 11;
             }
         }
 
@@ -390,59 +414,36 @@ public class DialpadView extends LinearLayout {
     private int getKeyButtonAnimationDuration(int buttonId) {
         if (mIsLandscape) {
             if (mIsRtl) {
-                switch (buttonId) {
-                    case R.id.one:
-                    case R.id.four:
-                    case R.id.seven:
-                    case R.id.star:
-                        return KEY_FRAME_DURATION * 8;
-                    case R.id.two:
-                    case R.id.five:
-                    case R.id.eight:
-                    case R.id.zero:
-                        return KEY_FRAME_DURATION * 9;
-                    case R.id.three:
-                    case R.id.six:
-                    case R.id.nine:
-                    case R.id.pound:
-                        return KEY_FRAME_DURATION * 10;
+                if (buttonId == R.id.one || buttonId == R.id.four || buttonId == R.id.seven
+                        || buttonId == R.id.star) {
+                    return KEY_FRAME_DURATION * 8;
+                } else if (buttonId == R.id.two || buttonId == R.id.five || buttonId == R.id.eight
+                        || buttonId == R.id.zero) {
+                    return KEY_FRAME_DURATION * 9;
+                } else if (buttonId == R.id.three || buttonId == R.id.six || buttonId == R.id.nine
+                        || buttonId == R.id.pound) {
+                    return KEY_FRAME_DURATION * 10;
                 }
             } else {
-                switch (buttonId) {
-                    case R.id.one:
-                    case R.id.four:
-                    case R.id.seven:
-                    case R.id.star:
-                        return KEY_FRAME_DURATION * 10;
-                    case R.id.two:
-                    case R.id.five:
-                    case R.id.eight:
-                    case R.id.zero:
-                        return KEY_FRAME_DURATION * 9;
-                    case R.id.three:
-                    case R.id.six:
-                    case R.id.nine:
-                    case R.id.pound:
-                        return KEY_FRAME_DURATION * 8;
+                if (buttonId == R.id.one || buttonId == R.id.four || buttonId == R.id.seven
+                        || buttonId == R.id.star) {
+                    return KEY_FRAME_DURATION * 10;
+                } else if (buttonId == R.id.two || buttonId == R.id.five || buttonId == R.id.eight
+                        || buttonId == R.id.zero) {
+                    return KEY_FRAME_DURATION * 9;
+                } else if (buttonId == R.id.three || buttonId == R.id.six || buttonId == R.id.nine
+                        || buttonId == R.id.pound) {
+                    return KEY_FRAME_DURATION * 8;
                 }
             }
         } else {
-            switch (buttonId) {
-                case R.id.one:
-                case R.id.two:
-                case R.id.three:
-                case R.id.four:
-                case R.id.five:
-                case R.id.six:
-                    return KEY_FRAME_DURATION * 10;
-                case R.id.seven:
-                case R.id.eight:
-                case R.id.nine:
-                    return KEY_FRAME_DURATION * 9;
-                case R.id.star:
-                case R.id.zero:
-                case R.id.pound:
-                    return KEY_FRAME_DURATION * 8;
+            if (buttonId == R.id.one || buttonId == R.id.two || buttonId == R.id.three
+                    || buttonId == R.id.four || buttonId == R.id.five || buttonId == R.id.six) {
+                return KEY_FRAME_DURATION * 10;
+            } else if (buttonId == R.id.seven || buttonId == R.id.eight || buttonId == R.id.nine) {
+                return KEY_FRAME_DURATION * 9;
+            } else if (buttonId == R.id.star || buttonId == R.id.zero || buttonId == R.id.pound) {
+                return KEY_FRAME_DURATION * 8;
             }
         }
 
