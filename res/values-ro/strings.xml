@@ -31,11 +31,11 @@
     <string name="callFailed_out_of_network" msgid="6970725831030399542">"Apel din afara rețelei"</string>
     <string name="callFailed_server_error" msgid="1391421251190688379">"Eroare de server. Încercați din nou mai târziu."</string>
     <string name="callFailed_noSignal" msgid="1758972490451048086">"Niciun semnal"</string>
-    <string name="callFailed_limitExceeded" msgid="8796663077702587664">"Limită ACM depăşită"</string>
+    <string name="callFailed_limitExceeded" msgid="8796663077702587664">"Limită ACM depășită"</string>
     <string name="callFailed_powerOff" msgid="9179061328562234362">"Radio oprit"</string>
     <string name="callFailed_simError" msgid="3307159523385380486">"Nu există SIM sau eroare de SIM"</string>
     <string name="callFailed_outOfService" msgid="4535901975891969115">"Rețeaua mobilă nu este disponibilă"</string>
-    <string name="callFailed_fdn_only" msgid="1720606112619022283">"Apelurile trimise sunt restricţionate de FDN."</string>
+    <string name="callFailed_fdn_only" msgid="1720606112619022283">"Apelurile trimise sunt restricționate de FDN."</string>
     <string name="callFailed_dialToUssd" msgid="2093563828737170617">"Solicitarea DIAL a fost transformată în solicitare USSD."</string>
     <string name="callFailed_dialToSs" msgid="3144952834772702469">"Solicitarea DIAL a fost transformată în solicitare SS."</string>
     <string name="callFailed_dialToDial" msgid="1143052062100334634">"Solicitarea DIAL a fost transformată în solicitare DIAL cu alt număr."</string>
