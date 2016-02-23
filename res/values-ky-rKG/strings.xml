@@ -36,6 +36,9 @@
     <string name="callFailed_simError" msgid="3307159523385380486">"SIM карта жок же анда ката кетти"</string>
     <string name="callFailed_outOfService" msgid="4535901975891969115">"Уюлдук тармак жеткиликтүү эмес"</string>
     <string name="callFailed_fdn_only" msgid="1720606112619022283">"Чыгуучу чалуулар FDN аркылуу чектелген."</string>
+    <string name="callFailed_dialToUssd" msgid="2093563828737170617">"DIAL сурамы USSD сурамына өзгөртүлдү."</string>
+    <string name="callFailed_dialToSs" msgid="3144952834772702469">"DIAL сурамы SS сурамына өзгөртүлдү."</string>
+    <string name="callFailed_dialToDial" msgid="1143052062100334634">"DIAL сурамы башка телефон номери менен DIAL сурамына өзгөртүлдү."</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"Чалууну бөгөттөө күйүп турганда, чыгуучу чалууларды жасоо мүмкүн эмес."</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"Чалуулар уруксат көзөмөлү аркылуу чектелген."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"Шашылыш чалуулар уруксат көзөмөлү аркылуу чектелген."</string>
