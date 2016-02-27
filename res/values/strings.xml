@@ -45,6 +45,9 @@
     <!--  Do not translate. -->
     <string name="dialpad_pound_letters"></string>
 
+    <!-- String describing the back button in the dialpad. -->
+    <string name="description_dialpad_back">Navigate back</string>
+
     <!-- String describing the overflow menu button in the dialpad. -->
     <string name="description_dialpad_overflow">More options</string>
 
