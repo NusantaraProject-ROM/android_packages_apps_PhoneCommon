@@ -17,7 +17,7 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="description_dialpad_back" msgid="8370856774250260053">"Vratite se nazad"</string>
+    <string name="description_dialpad_back" msgid="8370856774250260053">"Idite nazad"</string>
     <string name="description_dialpad_overflow" msgid="4853244877599437286">"Još opcija"</string>
     <string name="description_delete_button" msgid="88733669653753441">"taster za brisanje"</string>
     <string name="description_image_button_plus" msgid="7821061347207448362">"plus"</string>
