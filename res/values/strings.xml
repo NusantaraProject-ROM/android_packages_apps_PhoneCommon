@@ -119,6 +119,8 @@
     <string name="incall_error_missing_voicemail_number">Voicemail number unknown.</string>
     <!-- In-call screen: call failed because you cannot make video calls when TTY is enabled. -->
     <string name="callFailed_video_call_tty_enabled">Cannot make video calls when TTY is enabled.</string>
+    <!-- In-call screen: call ended because it was transferred to another device. -->
+    <string name="callEnded_pulled">Call transferred to another device.</string>
     <!-- Choice in the ringtone picker.  If chosen, there will be silence instead of a ringtone played. -->
     <string name="ringtone_silent">None</string>
     <!-- If there is ever a ringtone set for some setting, but that ringtone can no longer be resolved, this is shown instead.  For example, if the ringtone was on a SD card and it had been removed, this would be shown for ringtones on that SD card. -->
