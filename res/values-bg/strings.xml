@@ -47,6 +47,7 @@
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"Невалиден номер"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"Неизвестен номер за гласова поща."</string>
     <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"Не може да се извършват видеообаждания, когато режимът на TTY е активиран."</string>
+    <string name="callEnded_pulled" msgid="437630601519502587">"Обаждането бе прехвърлено на друго устройство."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Няма"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Неизвестна мелодия"</string>
 </resources>

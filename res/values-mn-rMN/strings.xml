@@ -47,6 +47,7 @@
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"Алдаатай дугаар"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"Дуут шуудангийн дугаар тодорхойгүй."</string>
     <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"TTY-г идэвхжүүлсэн үед видео дуудлага хийх боломжгүй."</string>
+    <string name="callEnded_pulled" msgid="437630601519502587">"Дуудлагыг өөр төхөөрөмж рүү шилжүүлсэн."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Байхгүй"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Үл мэдэгдэх хонхны ая"</string>
 </resources>
