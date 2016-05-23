@@ -36,7 +36,7 @@
     <string name="callFailed_powerOff" msgid="9179061328562234362">"Radio oprit"</string>
     <string name="callFailed_simError" msgid="3307159523385380486">"Nu există SIM sau eroare de SIM"</string>
     <string name="callFailed_outOfService" msgid="4535901975891969115">"Rețeaua mobilă nu este disponibilă"</string>
-    <string name="callFailed_fdn_only" msgid="1720606112619022283">"Apelurile trimise sunt restricționate de FDN."</string>
+    <string name="callFailed_fdn_only" msgid="1720606112619022283">"Apelurile trimise sunt restricționate de NAR."</string>
     <string name="callFailed_dialToUssd" msgid="2093563828737170617">"Solicitarea DIAL a fost transformată în solicitare USSD."</string>
     <string name="callFailed_dialToSs" msgid="3144952834772702469">"Solicitarea DIAL a fost transformată în solicitare SS."</string>
     <string name="callFailed_dialToDial" msgid="1143052062100334634">"Solicitarea DIAL a fost transformată în solicitare DIAL cu alt număr."</string>
@@ -47,6 +47,7 @@
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"Număr nevalid"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"Număr de mesagerie vocală necunoscut."</string>
     <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"Nu se pot iniția apeluri video când funcția TTY este activată."</string>
+    <string name="callEnded_pulled" msgid="437630601519502587">"Apel transferat către alt dispozitiv."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Niciunul"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Ton de apel necunoscut"</string>
 </resources>

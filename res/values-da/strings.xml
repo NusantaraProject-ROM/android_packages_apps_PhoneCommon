@@ -47,6 +47,7 @@
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"Ugyldigt nummer"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"Telefonsvarernummeret er ukendt"</string>
     <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"Der kan ikke foretages videoopkald, når TTY er aktiveret."</string>
+    <string name="callEnded_pulled" msgid="437630601519502587">"Opkaldet blev viderestillet til en anden enhed."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Ingen"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Ukendt ringetone"</string>
 </resources>

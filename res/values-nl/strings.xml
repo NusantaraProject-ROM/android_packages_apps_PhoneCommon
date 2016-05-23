@@ -47,6 +47,7 @@
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"Ongeldig getal"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"Voicemailnummer onbekend."</string>
     <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"Kan geen videogesprekken voeren wanneer TTY is ingeschakeld."</string>
+    <string name="callEnded_pulled" msgid="437630601519502587">"Oproep doorgeschakeld naar een ander apparaat."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Geen"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Onbekende beltoon"</string>
 </resources>

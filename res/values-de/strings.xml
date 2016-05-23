@@ -47,6 +47,7 @@
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"Ungültige Nummer"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"Mailboxnummer unbekannt"</string>
     <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"Wenn ein TTY-Gerät aktiviert ist, sind keine Videoanrufe möglich."</string>
+    <string name="callEnded_pulled" msgid="437630601519502587">"Der Anruf wurde auf ein anderes Gerät übertragen."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Ohne"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Unbekannter Klingelton"</string>
 </resources>

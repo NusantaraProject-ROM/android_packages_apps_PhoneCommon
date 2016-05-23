@@ -47,6 +47,7 @@
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"నంబర్ చెల్లదు"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"వాయిస్‌మెయిల్ నంబర్ తెలియదు."</string>
     <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"TTY ప్రారంభించినప్పుడు వీడియో కాల్‌లను చేయలేరు."</string>
+    <string name="callEnded_pulled" msgid="437630601519502587">"కాల్ మరో పరికరానికి బదిలీ చేయబడింది."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"ఏదీ వద్దు"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"తెలియని రింగ్‌టోన్"</string>
 </resources>

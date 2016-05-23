@@ -47,6 +47,7 @@
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"Неверный номер"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"Неизвестный номер голосовой почты."</string>
     <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"Когда телетайп включен, видеозвонки недоступны."</string>
+    <string name="callEnded_pulled" msgid="437630601519502587">"Вызов перенесен на другое устройство."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Нет"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Мелодия не найдена"</string>
 </resources>
