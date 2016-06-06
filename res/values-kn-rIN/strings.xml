@@ -22,7 +22,7 @@
     <string name="description_delete_button" msgid="88733669653753441">"backspace"</string>
     <string name="description_image_button_plus" msgid="7821061347207448362">"ಸಂಕಲನ"</string>
     <string name="description_voicemail_button" msgid="6281470684653439120">"ಧ್ವನಿಮೇಲ್"</string>
-    <string name="default_notification_description" msgid="6011631627871110785">"ಡೀಫಾಲ್ಟ್‌‌ ಧ್ವನಿ (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
+    <string name="default_notification_description" msgid="6011631627871110785">"ಡಿಫಾಲ್ಟ್‌‌ ಧ್ವನಿ (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
     <string name="callFailed_userBusy" msgid="5163219086553610486">"ಲೈನ್‌ ಕಾರ್ಯನಿರತವಾಗಿದೆ"</string>
     <string name="callFailed_congestion" msgid="3645995103907418337">"ನೆಟ್‌ವರ್ಕ್‌ ಕಾರ್ಯನಿರತವಾಗಿದೆ"</string>
     <string name="callFailed_timedOut" msgid="7772951976278867294">"ಪ್ರತಿಕ್ರಿಯೆ ಇಲ್ಲ, ಸಮಯ ಮೀರಿದೆ"</string>
