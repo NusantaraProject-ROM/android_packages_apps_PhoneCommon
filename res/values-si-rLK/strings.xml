@@ -17,6 +17,7 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="description_dialpad_back" msgid="8370856774250260053">"ආපසු සංචාලනය කරන්න"</string>
     <string name="description_dialpad_overflow" msgid="4853244877599437286">"තවත් විකල්ප"</string>
     <string name="description_delete_button" msgid="88733669653753441">"බැක්ස්පේස්"</string>
     <string name="description_image_button_plus" msgid="7821061347207448362">"ධන"</string>
@@ -45,6 +46,7 @@
     <string name="callFailed_dsac_restricted_normal" msgid="266947632344387216">"පිවිසීම පාලකයා මගින් සාමාන්‍ය ඇමතුම් සීමා කර තිබේ."</string>
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"අවලංගු අංකය"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"හඬ තැපැල් අංකය නොදනී."</string>
+    <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"TTY සබල විට වීඩියෝ ඇමතුම් සිදු කළ නොහැකිය."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"කිසිවක් නැත"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"නොදන්නා රින්ටෝනය"</string>
 </resources>
