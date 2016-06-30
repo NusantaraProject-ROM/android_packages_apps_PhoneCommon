@@ -17,6 +17,7 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="description_dialpad_back" msgid="8370856774250260053">"Gå tilbake"</string>
     <string name="description_dialpad_overflow" msgid="4853244877599437286">"Flere alternativer"</string>
     <string name="description_delete_button" msgid="88733669653753441">"tilbaketast"</string>
     <string name="description_image_button_plus" msgid="7821061347207448362">"pluss"</string>
@@ -45,6 +46,7 @@
     <string name="callFailed_dsac_restricted_normal" msgid="266947632344387216">"Vanlige samtaler er begrenset av tilgangskontrollen."</string>
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"Ugyldig tall"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"Nummeret til talepostkassen mangler."</string>
+    <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"Kan ikke starte videosamtaler når TTY er slått på."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Ingen"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Ukjent ringetone"</string>
 </resources>

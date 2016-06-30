@@ -17,6 +17,7 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="description_dialpad_back" msgid="8370856774250260053">"ນຳທາງກັບຄືນ"</string>
     <string name="description_dialpad_overflow" msgid="4853244877599437286">"ໂຕ​ເລືອກ​ເພີ່ມ​ເຕີມ"</string>
     <string name="description_delete_button" msgid="88733669653753441">"ປຸ່ມ backspace"</string>
     <string name="description_image_button_plus" msgid="7821061347207448362">"ບວກ"</string>
@@ -45,6 +46,7 @@
     <string name="callFailed_dsac_restricted_normal" msgid="266947632344387216">"ການ​ໂທ​ປົກ​ກະ​ຕິ​ຖືກ​ຈຳ​ກັດ​ໂດຍ​ການ​ຄວບ​ຄຸມ​ການ​ເຂົ້າ​ຫາ."</string>
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"ເບີ​ໂທ​ບໍ່​ຖືກ​ຕ້ອງ"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"​ເບີ​ຂໍ້​ຄວາມ​ສຽງ​ທີ່​ບໍ່​ຮູ້​ຈັກ."</string>
+    <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"ບໍ່ສາມາດໂທແບບວິດີໂອໄດ້ເມື່ອເປີດນຳໃຊ້ TTY."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"ບໍ່ມີ"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"ສຽງ​ໂທ​ເຂົ້າ​ບໍ່​ຮູ້​ຈັກ"</string>
 </resources>

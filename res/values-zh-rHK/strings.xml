@@ -17,6 +17,7 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="description_dialpad_back" msgid="8370856774250260053">"返回"</string>
     <string name="description_dialpad_overflow" msgid="4853244877599437286">"更多選項"</string>
     <string name="description_delete_button" msgid="88733669653753441">"Backspace 鍵"</string>
     <string name="description_image_button_plus" msgid="7821061347207448362">"加號"</string>
@@ -45,6 +46,7 @@
     <string name="callFailed_dsac_restricted_normal" msgid="266947632344387216">"正常通話受存取控制權限制。"</string>
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"號碼無效"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"留言信箱號碼不明。"</string>
+    <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"TTY 啟用時無法進行視像通話。"</string>
     <string name="ringtone_silent" msgid="249805466934178869">"無"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"不明鈴聲"</string>
 </resources>
