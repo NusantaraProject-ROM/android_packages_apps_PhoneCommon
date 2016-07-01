@@ -125,5 +125,6 @@
     <string name="ringtone_silent">None</string>
     <!-- If there is ever a ringtone set for some setting, but that ringtone can no longer be resolved, this is shown instead.  For example, if the ringtone was on a SD card and it had been removed, this would be shown for ringtones on that SD card. -->
     <string name="ringtone_unknown">Unknown ringtone</string>
-
+    <!-- In-call screen: call ended because the user has reached the maximum number of calls on their current devices and other devices. -->
+    <string name="callFailed_maximum_reached">All available lines are in use.  To make a call, disconnect one of the calls on this device, or on one of your other devices.</string>
 </resources>
