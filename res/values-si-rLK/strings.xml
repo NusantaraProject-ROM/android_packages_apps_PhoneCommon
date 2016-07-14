@@ -50,4 +50,6 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"ඇමතුම තවත් උපාංගයක් වෙත මාරු කරන ලදී."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"කිසිවක් නැත"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"නොදන්නා රින්ටෝනය"</string>
+    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
+    <skip />
 </resources>

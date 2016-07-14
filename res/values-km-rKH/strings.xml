@@ -50,4 +50,6 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"បាន​បញ្ជូន​បន្ត​ការហៅ​ទៅ​ឧបករណ៍​ផ្សេង។"</string>
     <string name="ringtone_silent" msgid="249805466934178869">"គ្មាន"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"សំឡេង​រោទ៍​មិន​ស្គាល់"</string>
+    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
+    <skip />
 </resources>

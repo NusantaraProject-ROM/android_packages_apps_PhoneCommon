@@ -50,4 +50,6 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"La trucada s\'ha transferit a un altre dispositiu."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Cap"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"So de trucada desconegut"</string>
+    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
+    <skip />
 </resources>

@@ -50,4 +50,6 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"Обаждането бе прехвърлено на друго устройство."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Няма"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Неизвестна мелодия"</string>
+    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
+    <skip />
 </resources>
