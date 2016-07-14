@@ -50,4 +50,6 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"來電已轉接至另一部裝置。"</string>
     <string name="ringtone_silent" msgid="249805466934178869">"無"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"不明鈴聲"</string>
+    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
+    <skip />
 </resources>

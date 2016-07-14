@@ -50,4 +50,6 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"Klic je prenesen v drugo napravo."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Brez"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Neznan ton zvonjenja"</string>
+    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
+    <skip />
 </resources>

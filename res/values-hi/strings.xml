@@ -50,4 +50,6 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"कॉल को दूसरे डिवाइस पर स्थानान्तरित किया गया."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"कोई नहीं"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"अज्ञात रिंगटोन"</string>
+    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
+    <skip />
 </resources>
