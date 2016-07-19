@@ -50,6 +50,5 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"تماس به دستگاهی دیگر منتقل شد."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"هیچ‌کدام"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"آهنگ زنگ ناشناس"</string>
-    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
-    <skip />
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"همه خط‌های موجود در حال استفاده هستند. برای برقراری تماس، یکی از تماس‌ها را در این دستگاه یا یکی دیگر از دستگاه‌هایتان قطع کنید."</string>
 </resources>

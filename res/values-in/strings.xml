@@ -50,6 +50,5 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"Panggilan telepon dialihkan ke perangkat lain."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Tidak ada"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Nada dering tidak dikenal"</string>
-    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
-    <skip />
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Semua saluran yang tersedia sedang digunakan. Untuk melakukan panggilan, putuskan salah satu panggilan pada perangkat ini atau pada salah satu perangkat Anda yang lain."</string>
 </resources>

@@ -50,6 +50,5 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"Opkaldet blev viderestillet til en anden enhed."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Ingen"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Ukendt ringetone"</string>
-    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
-    <skip />
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Alle tilgængelige linjer er optaget. Afbryd et af opkaldene på denne enhed eller på en af dine andre enheder for at foretage et opkald."</string>
 </resources>

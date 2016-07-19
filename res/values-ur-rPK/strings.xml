@@ -50,6 +50,5 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"کال ایک اور آلہ پر منتقل ہو گئی"</string>
     <string name="ringtone_silent" msgid="249805466934178869">"کوئی نہیں"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"نامعلوم رنگ ٹون"</string>
-    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
-    <skip />
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"تمام دستیاب لائنیں استعمال میں ہیں۔ کال کرنے کیلئے، اس آلہ پر کوئی کال غیر منسلک کریں، یا اپنے آلات میں سے کسی اور پر سے۔"</string>
 </resources>

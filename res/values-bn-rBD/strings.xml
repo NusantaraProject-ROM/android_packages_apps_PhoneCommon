@@ -50,6 +50,5 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"অন্য ডিভাইসে কল স্থানান্তর করা হয়েছে৷"</string>
     <string name="ringtone_silent" msgid="249805466934178869">"একবারও না"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"অজানা রিংটোন"</string>
-    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
-    <skip />
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"উপলব্ধ সমস্ত লাইন ব্যবহৃত হচ্ছে৷ একটি কল করতে, এই ডিভাইস বা আপনার অন্য কোনো ডিভাইসে যে কোনো একটি কল কেটে দিন৷"</string>
 </resources>

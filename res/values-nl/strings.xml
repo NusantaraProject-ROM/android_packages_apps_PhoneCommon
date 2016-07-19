@@ -50,6 +50,5 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"Oproep doorgeschakeld naar een ander apparaat."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Geen"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Onbekende beltoon"</string>
-    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
-    <skip />
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Alle beschikbare lijnen zijn in gebruik. Als je wilt bellen, verbreek je de verbinding in een van de gesprekken op dit apparaat of op een van je andere apparaten."</string>
 </resources>

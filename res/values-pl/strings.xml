@@ -50,6 +50,5 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"Połączenie zostało przekazane na inne urządzenie."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Brak"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Nieznany dzwonek"</string>
-    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
-    <skip />
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Wszystkie dostępne linie są zajęte. Aby nawiązać połączenie, zakończ jedną z rozmów na tym lub innym swoim urządzeniu."</string>
 </resources>

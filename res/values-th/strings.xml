@@ -50,6 +50,5 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"โอนสายไปที่อุปกรณ์อีกเครื่องหนึ่งแล้ว"</string>
     <string name="ringtone_silent" msgid="249805466934178869">"ไม่มี"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"ไม่ทราบเสียงเรียกเข้า"</string>
-    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
-    <skip />
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"สายทั้งหมดกำลังใช้งานอยู่ หากต้องการโทรออก ให้ตัดสายที่ใช้อยู่หนึ่งสายในอุปกรณ์นี้หรืออุปกรณ์อื่นๆ ของคุณ"</string>
 </resources>

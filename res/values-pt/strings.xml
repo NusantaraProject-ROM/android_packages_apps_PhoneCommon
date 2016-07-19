@@ -50,6 +50,5 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"Chamada transferida para outro dispositivo."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Nenhum"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Toque desconhecido"</string>
-    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
-    <skip />
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Todas as linhas disponíveis estão em uso. Para fazer uma chamada, desconecte uma das chamadas neste dispositivo ou em um dos seus outros dispositivos."</string>
 </resources>

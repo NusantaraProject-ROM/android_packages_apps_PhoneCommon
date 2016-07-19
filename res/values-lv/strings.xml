@@ -50,6 +50,5 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"Zvans tika pāradresēts uz citu ierīci."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Nav"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Nezināms zvana signāls"</string>
-    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
-    <skip />
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Visas pieejamās līnijas ir aizņemtas. Lai veiktu zvanu, pārtrauciet kādu zvanu šajā ierīcē vai kādā no citām savām ierīcēm."</string>
 </resources>
