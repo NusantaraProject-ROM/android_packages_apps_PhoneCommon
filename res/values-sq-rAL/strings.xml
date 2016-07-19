@@ -50,6 +50,5 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"Telefonata u transferua te një pajisje tjetër."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Asnjë"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Toni i ziles është i panjohur"</string>
-    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
-    <skip />
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Të gjitha linjat e disponueshme janë në përdorim. Për të bërë një telefonatë, shkëput një nga telefonatat në këtë pajisje ose në një nga pajisjet e tjera të tua."</string>
 </resources>

@@ -50,6 +50,5 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"Der Anruf wurde auf ein anderes Gerät übertragen."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Ohne"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Unbekannter Klingelton"</string>
-    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
-    <skip />
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Alle verfügbaren Leitungen sind belegt. Beende einen Anruf auf diesem oder einem deiner anderen Geräte, um einen neuen Anruf zu tätigen."</string>
 </resources>

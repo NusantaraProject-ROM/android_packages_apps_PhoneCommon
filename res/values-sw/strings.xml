@@ -50,6 +50,5 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"Simu imeelekezwa kwenye kifaa kingine."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Hamna"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Mlio usiojulikana"</string>
-    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
-    <skip />
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Laini zote zilizopo zinatumika. Ili upige simu, kata mojawapo ya simu zinazoendelea kwenye kifaa hiki, au kwenye mojawapo ya vifaa vyako vingine."</string>
 </resources>

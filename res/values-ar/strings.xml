@@ -50,6 +50,5 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"تم نقل المكالمة إلى جهاز آخر."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"بدون"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"نغمة رنين غير معروفة"</string>
-    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
-    <skip />
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"جميع الخطوط المتوفرة قيد الاستخدام. لإجراء مكالمة، اقطع اتصال إحدى المكالمات الجارية على هذا الجهاز أو على أجهزتك الأخرى."</string>
 </resources>

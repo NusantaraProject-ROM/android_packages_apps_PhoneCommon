@@ -50,6 +50,5 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"Qo‘ng‘iroq boshqa qurilmaga o‘tkazildi."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Yo‘q"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Noma’lum rington"</string>
-    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
-    <skip />
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Barcha liniyalar band. Qo‘ng‘iroq qilish uchun bu yoki boshqa qurilmadagi qo‘ng‘iroqlardan birini tugating."</string>
 </resources>

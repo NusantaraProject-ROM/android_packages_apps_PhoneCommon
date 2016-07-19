@@ -50,6 +50,5 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"Hovor byl přesměrován na jiné zařízení."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Žádný"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Neznámý vyzváněcí tón"</string>
-    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
-    <skip />
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Všechny dostupné linky jsou používány. Pokud chcete provést hovor, odpojte jeden z hovorů na tomto nebo jiném z vašich zařízení."</string>
 </resources>

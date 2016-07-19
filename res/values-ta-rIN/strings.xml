@@ -50,6 +50,5 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"அழைப்பு மற்றொரு சாதனத்திற்கு மாற்றப்பட்டது."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"ஏதுமில்லை"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"அறியப்படாத ரிங்டோன்"</string>
-    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
-    <skip />
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"அதிகபட்ச அழைப்புகளின் எண்ணிக்கையை அடைந்துவிட்டீர்கள். அழைக்க, இந்தச் சாதனத்தில் அல்லது உங்கள் மற்றொரு சாதனத்தில் ஒரு அழைப்பைத் துண்டிக்கவும்."</string>
 </resources>

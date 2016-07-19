@@ -50,6 +50,5 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"Se ha transferido la llamada a otro dispositivo."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Ninguno"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Tono desconocido"</string>
-    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
-    <skip />
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Todas las líneas disponibles están ocupadas. Si quieres llamar, tienes que desconectar una llamada de este dispositivo o de otro de los tuyos."</string>
 </resources>

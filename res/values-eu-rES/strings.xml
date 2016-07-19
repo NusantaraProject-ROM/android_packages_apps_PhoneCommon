@@ -50,6 +50,5 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"Beste gailu batera transferitu da deia."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Bat ere ez"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Tonu ezezaguna"</string>
-    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
-    <skip />
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Okupatuta daude erabilgarri dauden linea guztiak. Deia egiteko, deskonektatu gailu honen edo beste gailuetako baten deietako bat."</string>
 </resources>

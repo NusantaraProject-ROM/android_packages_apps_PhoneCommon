@@ -50,6 +50,5 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"Poziv prenesen na drugi uređaj."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Ništa"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Nepoznata melodija zvona"</string>
-    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
-    <skip />
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Sve su dostupne linije zauzete. Da biste uspostavili poziv, prekinite jedan od poziva na ovom uređaju ili na nekom drugom uređaju."</string>
 </resources>

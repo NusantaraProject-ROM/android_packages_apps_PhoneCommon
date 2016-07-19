@@ -50,6 +50,5 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"Zəng başqa cihaza yönləndirildi."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Yoxdur"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Naməlum zəng melodiyası"</string>
-    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
-    <skip />
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Bütün mövcud xətlər istifadə olunur. Zəng etmək üçün, bu və ya digər cihazlarınızda zənglərdən birini sonlandırın"</string>
 </resources>

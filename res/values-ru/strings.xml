@@ -50,6 +50,5 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"Вызов перенесен на другое устройство."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Нет"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Мелодия не найдена"</string>
-    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
-    <skip />
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Все доступные линии заняты. Чтобы позвонить, отключите один из вызовов на этом или другом устройстве."</string>
 </resources>

@@ -50,6 +50,5 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"కాల్ మరో పరికరానికి బదిలీ చేయబడింది."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"ఏదీ వద్దు"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"తెలియని రింగ్‌టోన్"</string>
-    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
-    <skip />
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"అందుబాటులో ఉన్న అన్ని లైన్‌లు వినియోగంలో ఉన్నాయి. కాల్ చేయడానికి, ఈ పరికరంలో లేదా మీ ఇతర పరికరాల్లో ఒకదానిలో మాట్లాడుతున్న కాల్‌‌ల్లో ఒకదాన్ని డిస్‌కనెక్ట్ చేయండి."</string>
 </resources>
