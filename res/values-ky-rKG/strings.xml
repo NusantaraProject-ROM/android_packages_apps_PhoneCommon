@@ -50,5 +50,5 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"Чалуу башка түзмөккө өткөрүлдү"</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Эч бири"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Белгисиз рингтон"</string>
-    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Колдо болгон бардык линиялар колдонулууда. Чалууну аткаруу үчүн бул түзмөктөгү же башка түзмөктөрүңүздүн бириндеги чалуулардын бирин токтотуңуз."</string>
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Бир дагы линия бош эмес. Чалуу үчүн ушул же башка түзмөктөгү чалуулардын бирин өчүрүңүз."</string>
 </resources>
