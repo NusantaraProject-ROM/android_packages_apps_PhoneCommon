@@ -51,4 +51,8 @@
     <string name="ringtone_silent" msgid="249805466934178869">"Không có"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Nhạc chuông không xác định"</string>
     <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Tất cả các đường dây có sẵn đều đang được sử dụng. Để thực hiện cuộc gọi, hãy ngắt kết nối một trong những cuộc gọi trên thiết bị này hoặc trên một trong các thiết bị khác của bạn."</string>
+    <!-- no translation found for callFailed_data_disabled (3885826754435317856) -->
+    <skip />
+    <!-- no translation found for callFailed_data_limit_reached (8092511810380535738) -->
+    <skip />
 </resources>

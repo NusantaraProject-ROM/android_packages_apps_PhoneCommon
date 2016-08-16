@@ -51,4 +51,8 @@
     <string name="ringtone_silent" msgid="249805466934178869">"هیچ‌کدام"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"آهنگ زنگ ناشناس"</string>
     <string name="callFailed_maximum_reached" msgid="4823790040422765056">"همه خط‌های موجود در حال استفاده هستند. برای برقراری تماس، یکی از تماس‌ها را در این دستگاه یا یکی دیگر از دستگاه‌هایتان قطع کنید."</string>
+    <!-- no translation found for callFailed_data_disabled (3885826754435317856) -->
+    <skip />
+    <!-- no translation found for callFailed_data_limit_reached (8092511810380535738) -->
+    <skip />
 </resources>
