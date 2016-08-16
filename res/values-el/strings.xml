@@ -51,4 +51,8 @@
     <string name="ringtone_silent" msgid="249805466934178869">"Κανένα"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Άγνωστος ήχος κλήσης"</string>
     <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Όλες οι διαθέσιμες γραμμές είναι σε χρήση. Για να πραγματοποιήσετε μια κλήση, αποσυνδέστε μία από τις κλήσεις σε αυτήν τη συσκευή ή σε μία από τις άλλες συσκευές σας."</string>
+    <!-- no translation found for callFailed_data_disabled (3885826754435317856) -->
+    <skip />
+    <!-- no translation found for callFailed_data_limit_reached (8092511810380535738) -->
+    <skip />
 </resources>

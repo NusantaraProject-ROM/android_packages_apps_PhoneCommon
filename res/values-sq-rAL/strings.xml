@@ -51,4 +51,8 @@
     <string name="ringtone_silent" msgid="249805466934178869">"Asnjë"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Toni i ziles është i panjohur"</string>
     <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Të gjitha linjat e disponueshme janë në përdorim. Për të bërë një telefonatë, shkëput një nga telefonatat në këtë pajisje ose në një nga pajisjet e tjera të tua."</string>
+    <!-- no translation found for callFailed_data_disabled (3885826754435317856) -->
+    <skip />
+    <!-- no translation found for callFailed_data_limit_reached (8092511810380535738) -->
+    <skip />
 </resources>
