@@ -51,8 +51,6 @@
     <string name="ringtone_silent" msgid="249805466934178869">"කිසිවක් නැත"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"නොදන්නා රින්ටෝනය"</string>
     <string name="callFailed_maximum_reached" msgid="4823790040422765056">"සියලු ලබා ගත හැකි දුරකථන මාර්ග භාවිතයේය. ඇමතුමක් කිරීමට, මෙම උපාංගයේ ඇමතුම් එකක් හෝ ඔබේ අනෙක් උපාංගවල එකක් විසන්ධි කරන්න."</string>
-    <!-- no translation found for callFailed_data_disabled (3885826754435317856) -->
-    <skip />
-    <!-- no translation found for callFailed_data_limit_reached (8092511810380535738) -->
-    <skip />
+    <string name="callFailed_data_disabled" msgid="3885826754435317856">"සෙලියුලර් දත්ත අබල කර තිබූ නිසා ඇමතුම අවසන් විය."</string>
+    <string name="callFailed_data_limit_reached" msgid="8092511810380535738">"සෙලියුලර් දත්ත සීමාව ළඟා වී ඇති නිසා ඇමතුම අවසන් විය."</string>
 </resources>
