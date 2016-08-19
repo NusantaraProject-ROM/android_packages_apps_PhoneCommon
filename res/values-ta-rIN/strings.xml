@@ -51,8 +51,6 @@
     <string name="ringtone_silent" msgid="249805466934178869">"ஏதுமில்லை"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"அறியப்படாத ரிங்டோன்"</string>
     <string name="callFailed_maximum_reached" msgid="4823790040422765056">"அதிகபட்ச அழைப்புகளின் எண்ணிக்கையை அடைந்துவிட்டீர்கள். அழைக்க, இந்தச் சாதனத்தில் அல்லது உங்கள் மற்றொரு சாதனத்தில் ஒரு அழைப்பைத் துண்டிக்கவும்."</string>
-    <!-- no translation found for callFailed_data_disabled (3885826754435317856) -->
-    <skip />
-    <!-- no translation found for callFailed_data_limit_reached (8092511810380535738) -->
-    <skip />
+    <string name="callFailed_data_disabled" msgid="3885826754435317856">"செல்லுலார் தரவு முடக்கப்பட்டதால், அழைப்பு முடிந்தது."</string>
+    <string name="callFailed_data_limit_reached" msgid="8092511810380535738">"செல்லுலார் தரவின் வரம்பை அடைந்துவிட்டதால், அழைப்பு முடிந்தது."</string>
 </resources>

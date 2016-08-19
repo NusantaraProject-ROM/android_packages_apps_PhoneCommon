@@ -51,8 +51,6 @@
     <string name="ringtone_silent" msgid="249805466934178869">"Yo‘q"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Noma’lum rington"</string>
     <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Barcha liniyalar band. Qo‘ng‘iroq qilish uchun bu yoki boshqa qurilmadagi qo‘ng‘iroqlardan birini tugating."</string>
-    <!-- no translation found for callFailed_data_disabled (3885826754435317856) -->
-    <skip />
-    <!-- no translation found for callFailed_data_limit_reached (8092511810380535738) -->
-    <skip />
+    <string name="callFailed_data_disabled" msgid="3885826754435317856">"Mobil internet o‘chirilganligi tufayli qo‘ng‘iroq tugatildi."</string>
+    <string name="callFailed_data_limit_reached" msgid="8092511810380535738">"Mobil internet trafigi tugagani uchun qo‘ng‘iroq tugatildi."</string>
 </resources>
