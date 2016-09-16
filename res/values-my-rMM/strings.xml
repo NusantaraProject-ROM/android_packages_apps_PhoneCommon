@@ -51,8 +51,6 @@
     <string name="ringtone_silent" msgid="249805466934178869">"မရှိ"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"မသိသောမြည်သံ"</string>
     <string name="callFailed_maximum_reached" msgid="4823790040422765056">"အသုံးပြုနိုင်သောလိုင်းအားလုံးကို သုံးနေပါသည်။ ခေါ်ဆိုမှုပြုလုပ်ရန် ဤကိရိယာ (သို့) သင်၏အခြားကိရိယာများရှိ ခေါ်ဆိုမှုတစ်ခုကို ဖြတ်တောက်ပါ။"</string>
-    <!-- no translation found for callFailed_data_disabled (3885826754435317856) -->
-    <skip />
-    <!-- no translation found for callFailed_data_limit_reached (8092511810380535738) -->
-    <skip />
+    <string name="callFailed_data_disabled" msgid="3885826754435317856">"ဆယ်လူလာဒေတာကို ပိတ်လိုက်သောကြောင့် ခေါ်ဆိုမှု ပြီးဆုံးသွားခဲ့သည်။"</string>
+    <string name="callFailed_data_limit_reached" msgid="8092511810380535738">"ဆယ်လူလာဒေတာကန့်သတ်ချက်သို့ ရောက်လာသဖြင့် ခေါ်ဆိုမှု ပြီးဆုံးသွားခဲ့ပါသည်။"</string>
 </resources>

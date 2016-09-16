@@ -51,8 +51,6 @@
     <string name="ringtone_silent" msgid="249805466934178869">"Без мелодија"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Непозната мелодија"</string>
     <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Сите достапни линии се во употреба. За воспоставување повик, прекинете еден од повиците на уредот или пак, на еден од другите ваши уреди."</string>
-    <!-- no translation found for callFailed_data_disabled (3885826754435317856) -->
-    <skip />
-    <!-- no translation found for callFailed_data_limit_reached (8092511810380535738) -->
-    <skip />
+    <string name="callFailed_data_disabled" msgid="3885826754435317856">"Повикот заврши затоа што се оневозможи мобилниот интернет."</string>
+    <string name="callFailed_data_limit_reached" msgid="8092511810380535738">"Повикот заврши затоа што се достигна ограничувањето за мобилниот интернет."</string>
 </resources>
