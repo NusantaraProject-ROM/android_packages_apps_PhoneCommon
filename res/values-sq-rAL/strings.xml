@@ -52,5 +52,8 @@
     <string name="ringtone_unknown" msgid="2303463713486734520">"Toni i ziles është i panjohur"</string>
     <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Të gjitha linjat e disponueshme janë në përdorim. Për të bërë një telefonatë, shkëput një nga telefonatat në këtë pajisje ose në një nga pajisjet e tjera të tua."</string>
     <string name="callFailed_data_disabled" msgid="3885826754435317856">"Telefonata përfundoi sepse të dhënat celulare u çaktivizuan."</string>
-    <string name="callFailed_data_limit_reached" msgid="8092511810380535738">"Telefonata përfundoi sepse kufiri i të dhënave celulare u arrit."</string>
+    <!-- no translation found for callFailed_data_limit_reached_description (1439284832802552582) -->
+    <skip />
+    <!-- no translation found for callFailed_data_limit_reached (7045770594965160282) -->
+    <skip />
 </resources>
