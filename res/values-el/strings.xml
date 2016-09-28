@@ -52,5 +52,8 @@
     <string name="ringtone_unknown" msgid="2303463713486734520">"Άγνωστος ήχος κλήσης"</string>
     <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Όλες οι διαθέσιμες γραμμές είναι σε χρήση. Για να πραγματοποιήσετε μια κλήση, αποσυνδέστε μία από τις κλήσεις σε αυτήν τη συσκευή ή σε μία από τις άλλες συσκευές σας."</string>
     <string name="callFailed_data_disabled" msgid="3885826754435317856">"Η πρόσκληση έληξε, επειδή τα δεδομένα κινητής τηλεφωνίας έχουν απενεργοποιηθεί."</string>
-    <string name="callFailed_data_limit_reached" msgid="8092511810380535738">"Η πρόσκληση έληξε, επειδή έχει συμπληρωθεί το όριο δεδομένων κινητής τηλεφωνίας."</string>
+    <!-- no translation found for callFailed_data_limit_reached_description (1439284832802552582) -->
+    <skip />
+    <!-- no translation found for callFailed_data_limit_reached (7045770594965160282) -->
+    <skip />
 </resources>
