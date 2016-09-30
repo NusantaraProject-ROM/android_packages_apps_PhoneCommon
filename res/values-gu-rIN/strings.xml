@@ -52,8 +52,6 @@
     <string name="ringtone_unknown" msgid="2303463713486734520">"અજાણ રિંગટોન"</string>
     <string name="callFailed_maximum_reached" msgid="4823790040422765056">"તમામ ઉપલબ્ધ લાઇન ઉપયોગમાં છે. કૉલ કરવા માટે, આ ઉપકરણ પરના અથવા તમારા અન્ય ઉપકરણોમાંના એક ઉપકરણ પરના કૉલ્સમાંના એક કૉલને ડિસ્કનેક્ટ કરો."</string>
     <string name="callFailed_data_disabled" msgid="3885826754435317856">"કૉલ સમાપ્ત થયો કારણ કે સેલ્યુલર ડેટા અક્ષમ કરવામાં આવ્યો હતો."</string>
-    <!-- no translation found for callFailed_data_limit_reached_description (1439284832802552582) -->
-    <skip />
-    <!-- no translation found for callFailed_data_limit_reached (7045770594965160282) -->
-    <skip />
+    <string name="callFailed_data_limit_reached_description" msgid="1439284832802552582">"કૉલ સમાપ્ત થયો કારણ કે સેલ્યુલર ડેટા મર્યાદા સુધી પહોંચી ગયા હતાં."</string>
+    <string name="callFailed_data_limit_reached" msgid="7045770594965160282">"ડેટા મર્યાદા સુધી પહોંચી ગયાં. કૉલ સમાપ્ત થયો."</string>
 </resources>

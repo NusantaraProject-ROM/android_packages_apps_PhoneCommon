@@ -52,8 +52,6 @@
     <string name="ringtone_unknown" msgid="2303463713486734520">"آهنگ زنگ ناشناس"</string>
     <string name="callFailed_maximum_reached" msgid="4823790040422765056">"همه خط‌های موجود در حال استفاده هستند. برای برقراری تماس، یکی از تماس‌ها را در این دستگاه یا یکی دیگر از دستگاه‌هایتان قطع کنید."</string>
     <string name="callFailed_data_disabled" msgid="3885826754435317856">"تماس پایان یافت زیرا داده شبکه تلفن همراه غیرفعال است."</string>
-    <!-- no translation found for callFailed_data_limit_reached_description (1439284832802552582) -->
-    <skip />
-    <!-- no translation found for callFailed_data_limit_reached (7045770594965160282) -->
-    <skip />
+    <string name="callFailed_data_limit_reached_description" msgid="1439284832802552582">"تماس پایان یافت زیرا به محدودیت داده شبکه تلفن همراه رسیدید."</string>
+    <string name="callFailed_data_limit_reached" msgid="7045770594965160282">"به محدودیت داده رسیدید. تماس پایان یافت."</string>
 </resources>

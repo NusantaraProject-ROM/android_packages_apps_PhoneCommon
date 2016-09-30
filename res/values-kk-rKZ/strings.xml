@@ -52,8 +52,6 @@
     <string name="ringtone_unknown" msgid="2303463713486734520">"Белгісіз қоңырау әуені"</string>
     <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Желілер бос емес. Қоңырау шалу үшін, осы немесе басқа құрылғыдағы қоңыраулардың бірін тоқтатыңыз."</string>
     <string name="callFailed_data_disabled" msgid="3885826754435317856">"Қоңырау аяқталды, себебі ұялы деректер ажыратылды."</string>
-    <!-- no translation found for callFailed_data_limit_reached_description (1439284832802552582) -->
-    <skip />
-    <!-- no translation found for callFailed_data_limit_reached (7045770594965160282) -->
-    <skip />
+    <string name="callFailed_data_limit_reached_description" msgid="1439284832802552582">"Қоңырау аяқталды, себебі ұялы деректер шегіне жетті."</string>
+    <string name="callFailed_data_limit_reached" msgid="7045770594965160282">"Ұялы деректер шегіне жетті. Қоңырау аяқталды."</string>
 </resources>
