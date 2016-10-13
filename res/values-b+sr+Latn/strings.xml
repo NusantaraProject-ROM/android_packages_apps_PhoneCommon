@@ -30,7 +30,7 @@
     <string name="callFailed_number_unreachable" msgid="1243366438388873914">"Broj je nedostupan"</string>
     <string name="callFailed_invalid_credentials" msgid="6115412108261660271">"Nevažeće korisničko ime ili lozinka"</string>
     <string name="callFailed_out_of_network" msgid="6970725831030399542">"Poziv van mreže"</string>
-    <string name="callFailed_server_error" msgid="1391421251190688379">"Greška servera. Pokušajte ponovo kasnije."</string>
+    <string name="callFailed_server_error" msgid="1391421251190688379">"Greška servera. Probajte ponovo kasnije."</string>
     <string name="callFailed_noSignal" msgid="1758972490451048086">"Nema signala"</string>
     <string name="callFailed_limitExceeded" msgid="8796663077702587664">"Prekoračeno je ACM ograničenje"</string>
     <string name="callFailed_powerOff" msgid="9179061328562234362">"Radio je isključen"</string>
