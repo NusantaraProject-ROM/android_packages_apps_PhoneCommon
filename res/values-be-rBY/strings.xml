@@ -51,4 +51,7 @@
     <string name="ringtone_silent" msgid="249805466934178869">"Няма"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Невядомы рынгтон"</string>
     <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Усе даступныя лініі выкарыстоўваюцца. Каб зрабіць выклік, адключыце адзін выклік на гэтай прыладзе ці на адной з вашых іншых прылад."</string>
+    <string name="callFailed_data_disabled" msgid="3885826754435317856">"Выклік скончаны, паколькі сотавая перадача даных была адключана."</string>
+    <string name="callFailed_data_limit_reached_description" msgid="1439284832802552582">"Выклік скончаны, паколькі дасягнуты ліміт на мабільную перадачу даных."</string>
+    <string name="callFailed_data_limit_reached" msgid="7045770594965160282">"Дасягнуты ліміт перадачы даных. Выклік скончаны."</string>
 </resources>
