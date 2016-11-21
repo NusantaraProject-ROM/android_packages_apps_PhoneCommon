@@ -17,6 +17,7 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="description_dialpad_back" msgid="8370856774250260053">"Zurück"</string>
     <string name="description_dialpad_overflow" msgid="4853244877599437286">"Weitere Optionen"</string>
     <string name="description_delete_button" msgid="88733669653753441">"Rücktaste"</string>
     <string name="description_image_button_plus" msgid="7821061347207448362">"Plus"</string>
@@ -45,6 +46,12 @@
     <string name="callFailed_dsac_restricted_normal" msgid="266947632344387216">"Normale Anrufe werden durch die Zugriffssteuerung beschränkt."</string>
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"Ungültige Nummer"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"Mailboxnummer unbekannt"</string>
+    <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"Wenn ein TTY-Gerät aktiviert ist, sind keine Videoanrufe möglich."</string>
+    <string name="callEnded_pulled" msgid="437630601519502587">"Der Anruf wurde auf ein anderes Gerät übertragen."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Ohne"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Unbekannter Klingelton"</string>
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Alle verfügbaren Leitungen sind belegt. Beende einen Anruf auf diesem oder einem deiner anderen Geräte, um einen neuen Anruf zu tätigen."</string>
+    <string name="callFailed_data_disabled" msgid="3885826754435317856">"Der Anruf wurde beendet, weil Mobildaten deaktiviert wurden."</string>
+    <string name="callFailed_data_limit_reached_description" msgid="1439284832802552582">"Der Anruf wurde beendet, weil das Mobilfunkdatenlimit erreicht wurde."</string>
+    <string name="callFailed_data_limit_reached" msgid="7045770594965160282">"Datenlimit erreicht. Anruf wurde beendet."</string>
 </resources>
