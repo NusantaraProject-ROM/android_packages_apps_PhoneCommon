@@ -34,7 +34,7 @@
     <string name="callFailed_noSignal" msgid="1758972490451048086">"কোনো সিগন্যাল নেই"</string>
     <string name="callFailed_limitExceeded" msgid="8796663077702587664">"ACM এর সীমা অতিক্রম করেছে"</string>
     <string name="callFailed_powerOff" msgid="9179061328562234362">"রেডিও বন্ধ"</string>
-    <string name="callFailed_simError" msgid="3307159523385380486">"কোনো SIM নেই বা SIM ত্রুটি"</string>
+    <string name="callFailed_simError" msgid="3307159523385380486">"কোনো সিম নেই বা সিম ত্রুটি"</string>
     <string name="callFailed_outOfService" msgid="4535901975891969115">"সেলুলার নেটওয়ার্ক উপলব্ধ নয়"</string>
     <string name="callFailed_fdn_only" msgid="1720606112619022283">"FDN এর দ্বারা আউটগোয়িং কলগুলি সীমাবদ্ধ করা আছে৷"</string>
     <string name="callFailed_dialToUssd" msgid="2093563828737170617">"DIAL অনুরোধটিকে USSD অনুরোধে রুপান্তরিত করা হয়েছে৷"</string>
