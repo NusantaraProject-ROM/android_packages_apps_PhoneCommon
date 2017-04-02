@@ -17,6 +17,7 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="description_dialpad_back" msgid="8370856774250260053">"Nagna-navigate pabalik"</string>
     <string name="description_dialpad_overflow" msgid="4853244877599437286">"Higit pang mga opsyon"</string>
     <string name="description_delete_button" msgid="88733669653753441">"backspace"</string>
     <string name="description_image_button_plus" msgid="7821061347207448362">"plus"</string>
@@ -45,6 +46,12 @@
     <string name="callFailed_dsac_restricted_normal" msgid="266947632344387216">"Pinaghihigpitan ang mga normal na tawag ng kontrol sa pag-access."</string>
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"Hindi wastong numero"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"Hindi alam ang numero ng voicemail."</string>
+    <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"Hindi makakapagsagawa ng mga video call kapag naka-enable ang TTY."</string>
+    <string name="callEnded_pulled" msgid="437630601519502587">"Inilipat ang tawag sa isa pang device."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Wala"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Hindi kilalang ringtone"</string>
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Ginagamit ang lahat ng available na linya. Upang tumawag, putulin ang koneksyon ng isa sa mga tawag sa device na ito, o sa isa sa iyong iba pang mga device."</string>
+    <string name="callFailed_data_disabled" msgid="3885826754435317856">"Natapos na ang tawag dahil na-disable ang cellular data."</string>
+    <string name="callFailed_data_limit_reached_description" msgid="1439284832802552582">"Natapos na ang tawag dahil naabot ang limitasyon ng cellular data."</string>
+    <string name="callFailed_data_limit_reached" msgid="7045770594965160282">"Naabot ang limitasyon ng data. Natapos na ang tawag."</string>
 </resources>

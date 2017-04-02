@@ -17,6 +17,7 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="description_dialpad_back" msgid="8370856774250260053">"Буцах"</string>
     <string name="description_dialpad_overflow" msgid="4853244877599437286">"Нэмэлт сонголтууд"</string>
     <string name="description_delete_button" msgid="88733669653753441">"ухраах"</string>
     <string name="description_image_button_plus" msgid="7821061347207448362">"нэмэх"</string>
@@ -45,6 +46,12 @@
     <string name="callFailed_dsac_restricted_normal" msgid="266947632344387216">"Хандалтын хяналтаар энгийн дуудлага хязгаарлагдсан байна."</string>
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"Алдаатай дугаар"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"Дуут шуудангийн дугаар тодорхойгүй."</string>
+    <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"TTY-г идэвхжүүлсэн үед видео дуудлага хийх боломжгүй."</string>
+    <string name="callEnded_pulled" msgid="437630601519502587">"Дуудлагыг өөр төхөөрөмж рүү шилжүүлсэн."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Байхгүй"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Үл мэдэгдэх хонхны ая"</string>
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Бүх боломжит шугам ашиглагдаж байна. Дуудлага хийхийн тулд энэ төхөөрөмж буюу өөрийн бусад төхөөрөмжүүд дээрх дуудлагуудын нэгийг нь таслана уу."</string>
+    <string name="callFailed_data_disabled" msgid="3885826754435317856">"Үүрэн датаг идэвхгүй болгосон учир дуудлагыг тасалсан."</string>
+    <string name="callFailed_data_limit_reached_description" msgid="1439284832802552582">"Үүрэн датаны хязгаарт хүрсэн учир дуудлагыг тасалсан."</string>
+    <string name="callFailed_data_limit_reached" msgid="7045770594965160282">"Датаны хязгаарт хүрсэн. Дуудлагыг тасалсан."</string>
 </resources>

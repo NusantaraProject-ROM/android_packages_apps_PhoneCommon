@@ -17,6 +17,7 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="description_dialpad_back" msgid="8370856774250260053">"Torna enrere"</string>
     <string name="description_dialpad_overflow" msgid="4853244877599437286">"Més opcions"</string>
     <string name="description_delete_button" msgid="88733669653753441">"retrocés"</string>
     <string name="description_image_button_plus" msgid="7821061347207448362">"més"</string>
@@ -45,6 +46,12 @@
     <string name="callFailed_dsac_restricted_normal" msgid="266947632344387216">"El control d\'accés restringeix les trucades estàndard."</string>
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"Número no vàlid"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"El número de la bústia de veu és desconegut."</string>
+    <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"No es poden fer videotrucades quan el dispositiu TTY està activat."</string>
+    <string name="callEnded_pulled" msgid="437630601519502587">"La trucada s\'ha transferit a un altre dispositiu."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Cap"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"So de trucada desconegut"</string>
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Totes les línies disponibles estan en ús. Per fer una trucada, desconnecta una de les trucades en aquest dispositiu o en un altre dels teus dispositius."</string>
+    <string name="callFailed_data_disabled" msgid="3885826754435317856">"La trucada ha finalitzat perquè les dades mòbils s\'han desactivat."</string>
+    <string name="callFailed_data_limit_reached_description" msgid="1439284832802552582">"La trucada s\'ha penjat perquè s\'ha arribat al límit de dades mòbils."</string>
+    <string name="callFailed_data_limit_reached" msgid="7045770594965160282">"S\'ha arribat al límit de dades. S\'ha penjat la trucada."</string>
 </resources>
