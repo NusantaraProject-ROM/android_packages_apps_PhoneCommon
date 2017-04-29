@@ -36,7 +36,7 @@
     <string name="callFailed_powerOff" msgid="9179061328562234362">"ರೇಡಿಯೋ ಆಫ್"</string>
     <string name="callFailed_simError" msgid="3307159523385380486">"ಯಾವುದೇ ಸಿಮ್‌ ಇಲ್ಲ ಅಥವಾ ಸಿಮ್‌ ದೋಷ"</string>
     <string name="callFailed_outOfService" msgid="4535901975891969115">"ಸೆಲ್ಯುಲಾರ್ ನೆಟ್‌ವರ್ಕ್‌ ಲಭ್ಯವಿಲ್ಲ"</string>
-    <string name="callFailed_fdn_only" msgid="1720606112619022283">"FDN ನಿಂದ ಹೊರಹೋಗುವ ಕರೆಗಳನ್ನು ನಿರ್ಬಂಧಿಸಿದೆ."</string>
+    <string name="callFailed_fdn_only" msgid="1720606112619022283">"ಎಫ್‌ಡಿಎನ್‌ ನಿಂದ ಹೊರಹೋಗುವ ಕರೆಗಳನ್ನು ನಿರ್ಬಂಧಿಸಿದೆ."</string>
     <string name="callFailed_dialToUssd" msgid="2093563828737170617">"DIAL ವಿನಂತಿಯನ್ನು USSD ವಿನಂತಿಗೆ ಮಾರ್ಪಡಿಸಲಾಗಿದೆ."</string>
     <string name="callFailed_dialToSs" msgid="3144952834772702469">"DIAL ವಿನಂತಿಯನ್ನು SS ವಿನಂತಿಗೆ ಮಾರ್ಪಡಿಸಲಾಗಿದೆ."</string>
     <string name="callFailed_dialToDial" msgid="1143052062100334634">"DIAL ವಿನಂತಿಯನ್ನು ವಿಭಿನ್ನ ಸಂಖ್ಯೆಯೊಂದಿಗೆ DIAL ಗೆ ಮಾರ್ಪಡಿಸಲಾಗಿದೆ."</string>
