@@ -104,25 +104,25 @@
     </style>
 
     <style name="Dialpad_LightTransparent">
-        <item name="dialpad_text_color">#414549</item>
-        <item name="dialpad_text_color_primary">#414549</item>
-        <item name="dialpad_text_color_secondary">#767C80</item>
-        <item name="dialpad_icon_tint">?attr/dialpad_text_color_secondary</item>
-        <item name="dialpad_voicemail_tint">?attr/dialpad_text_color_secondary</item>
+        <item name="dialpad_text_color">?android:textColorPrimaryInverse</item>
+        <item name="dialpad_text_color_primary">?android:textColorPrimaryInverse</item>
+        <item name="dialpad_text_color_secondary">?android:textColorSecondaryInverse</item>
+        <item name="dialpad_icon_tint">@color/dialpad_icon_tint_dark</item>
+        <item name="dialpad_voicemail_tint">@color/dialpad_icon_tint_dark</item>
         <item name="dialpad_background">@android:color/transparent</item>
-        <item name="dialpad_separator_color">?attr/dialpad_text_color_secondary</item>
+        <item name="dialpad_separator_color">@color/dialpad_icon_tint_dark</item>
         <item name="dialpad_margin_style">@style/DialpadNoSpaceStyle</item>
         <item name="dialpad_delete_padding">1dp</item>
     </style>
 
     <style name="Dialpad_DarkTransparent">
-        <item name="dialpad_text_color">@android:color/white</item>
-        <item name="dialpad_text_color_primary">@android:color/white</item>
-        <item name="dialpad_text_color_secondary">#ccffffff</item>
+        <item name="dialpad_text_color">?android:textColorPrimary</item>
+        <item name="dialpad_text_color_primary">?android:textColorPrimary</item>
+        <item name="dialpad_text_color_secondary">?android:textColorSecondary</item>
         <item name="dialpad_icon_tint">@android:color/white</item>
-        <item name="dialpad_voicemail_tint">?attr/dialpad_text_color_secondary</item>
+        <item name="dialpad_voicemail_tint">@color/dialpad_icon_tint</item>
         <item name="dialpad_background">@android:color/transparent</item>
-        <item name="dialpad_separator_color">#7fffffff</item>
+        <item name="dialpad_separator_color">@color/dialpad_icon_tint</item>
         <item name="dialpad_margin_style">@style/DialpadNoSpaceStyle</item>
         <item name="dialpad_delete_padding">1dp</item>
     </style>
