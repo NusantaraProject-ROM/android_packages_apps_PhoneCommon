@@ -111,7 +111,7 @@
             android:cursorVisible="false"
             android:textColor="?attr/dialpad_text_color"
             android:textCursorDrawable="@null"
-            android:fontFamily="@*android:string/config_headlineFontFamily"
+            android:fontFamily="sans-serif"
             android:textStyle="normal"
             ex:resizing_text_min_size="@dimen/dialpad_digits_text_min_size" />
 
