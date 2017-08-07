@@ -34,7 +34,7 @@
     <string name="callFailed_noSignal" msgid="1758972490451048086">"Нема сигнал"</string>
     <string name="callFailed_limitExceeded" msgid="8796663077702587664">"Ограничувањето на ACM е надминато"</string>
     <string name="callFailed_powerOff" msgid="9179061328562234362">"Радиото е исклучено"</string>
-    <string name="callFailed_simError" msgid="3307159523385380486">"Нема СИМ или грешка на СИМ"</string>
+    <string name="callFailed_simError" msgid="3307159523385380486">"Нема SIM или грешка на SIM"</string>
     <string name="callFailed_outOfService" msgid="4535901975891969115">"Не е достапна мобилна мрежа"</string>
     <string name="callFailed_fdn_only" msgid="1720606112619022283">"Појдовните повици се ограничени со FDN."</string>
     <string name="callFailed_dialToUssd" msgid="2093563828737170617">"Барањето DIAL е изменето во барање USSD."</string>

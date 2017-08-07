@@ -28,7 +28,7 @@
     <string name="callFailed_timedOut" msgid="7772951976278867294">"ບໍ່ມີ​ການ​ຕອບ​ສະ​ໜອງ, ໝົດ​ເວລາ"</string>
     <string name="callFailed_server_unreachable" msgid="4766146133909799091">"ບໍ່​ສາ​ມາດ​ຕິດ​ຕໍ່​ເຊີບ​ເວີ​ໄດ້"</string>
     <string name="callFailed_number_unreachable" msgid="1243366438388873914">"ບໍ່​ສາ​ມາດ​ຕິດ​ຕໍ່​ໝາຍ​ເລກ​ນີ້​ໄດ້"</string>
-    <string name="callFailed_invalid_credentials" msgid="6115412108261660271">"ຊື່​ຜູ່​ໃຊ້ ແລະ​ລະ​ຫັດ​ຜ່ານ​ບໍ່​ຖືກ​ຕ້ອງ"</string>
+    <string name="callFailed_invalid_credentials" msgid="6115412108261660271">"ຊື່​ຜູ້​ໃຊ້ ແລະ​ລະ​ຫັດ​ຜ່ານ​ບໍ່​ຖືກ​ຕ້ອງ"</string>
     <string name="callFailed_out_of_network" msgid="6970725831030399542">"ການ​ໂທ​ຢູ່ນອກ​ເຄືອ​ຂ່າຍ"</string>
     <string name="callFailed_server_error" msgid="1391421251190688379">"ເຊີບ​ເວີ​ຜິດ​ພາດ. ກະ​ລຸ​ນາ​ລອງ​ໃໝ່​ໃນ​ພາຍ​ຫຼັງ."</string>
     <string name="callFailed_noSignal" msgid="1758972490451048086">"ບໍ່​ມີ​ສັນ​ຍານ"</string>
