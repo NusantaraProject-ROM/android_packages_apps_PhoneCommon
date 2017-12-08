@@ -105,6 +105,16 @@
     <string name="callFailed_dialToSs">DIAL request modified to SS request.</string>
     <!-- In-call screen: call failure reason (call modified to call with modified data) -->
     <string name="callFailed_dialToDial">DIAL request modified to DIAL with different number.</string>
+    <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+    <string name="callFailed_dialToDialVideo">DIAL request modified to Video DIAL.</string>
+    <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+    <string name="callFailed_dialVideoToSs">Video DIAL request modified to SS request.</string>
+    <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+    <string name="callFailed_dialVideoToUssd">Video DIAL request modified to USSD request.</string>
+    <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+    <string name="callFailed_dialVideoToDial">Video DIAL request modified to DIAL.</string>
+    <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+    <string name="callFailed_dialVideoToDialVideo">Video DIAL request modified to Video DIAL with different number.</string>
     <!-- In-call screen: call failure reason (call denied because call barring is on) -->
     <string name="callFailed_cb_enabled">Can\'t make outgoing calls while call barring is on.</string>
     <!-- In-call screen: call failure reason (call denied because domain specific access control is on) -->
