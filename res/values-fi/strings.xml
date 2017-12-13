@@ -40,6 +40,11 @@
     <string name="callFailed_dialToUssd" msgid="2093563828737170617">"DIAL-pyyntö muutettiin USSD-pyynnöksi."</string>
     <string name="callFailed_dialToSs" msgid="3144952834772702469">"DIAL-pyyntö muutettiin SS-pyynnöksi."</string>
     <string name="callFailed_dialToDial" msgid="1143052062100334634">"DIAL-pyyntö muutettiin DIAL-pyynnöksi toisella numerolla."</string>
+    <string name="callFailed_dialToDialVideo" msgid="5775151113566691576">"DIAL-pyyntö muutettiin Video DIAL ‑pyynnöksi."</string>
+    <string name="callFailed_dialVideoToSs" msgid="4797922057590315855">"Video DIAL ‑pyyntö muutettiin SS-pyynnöksi."</string>
+    <string name="callFailed_dialVideoToUssd" msgid="749864775809067856">"Video DIAL ‑pyyntö muutettiin USSD-pyynnöksi."</string>
+    <string name="callFailed_dialVideoToDial" msgid="7907676597683996467">"Video DIAL ‑pyyntö muutettiin DIAL-pyynnöksi."</string>
+    <string name="callFailed_dialVideoToDialVideo" msgid="647138761947526029">"Video DIAL ‑pyyntö muutettiin toisen numeron Video DIAL ‑pyynnöksi."</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"Puheluja ei voi soittaa eston ollessa käytössä."</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"Käyttörajoitus rajoittaa puheluita."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"Käyttörajoitus rajoittaa hätäpuheluita."</string>

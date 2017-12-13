@@ -40,6 +40,11 @@
     <string name="callFailed_dialToUssd" msgid="2093563828737170617">"‏درخواست DIAL به درخواست USSD تغییر کرد."</string>
     <string name="callFailed_dialToSs" msgid="3144952834772702469">"‏درخواست DIAL به درخواست SS تغییر کرد."</string>
     <string name="callFailed_dialToDial" msgid="1143052062100334634">"‏درخواست DIAL به DIAL با شماره دیگری تغییر کرد."</string>
+    <string name="callFailed_dialToDialVideo" msgid="5775151113566691576">"‏درخواست DIAL به Video DIAL تغییر کرد."</string>
+    <string name="callFailed_dialVideoToSs" msgid="4797922057590315855">"‏درخواست Video DIAL به درخواست SS تغییر کرد."</string>
+    <string name="callFailed_dialVideoToUssd" msgid="749864775809067856">"‏درخواست Video DIAL به درخواست USSD تغییر کرد."</string>
+    <string name="callFailed_dialVideoToDial" msgid="7907676597683996467">"‏درخواست Video DIAL به DIAL تغییر کرد."</string>
+    <string name="callFailed_dialVideoToDialVideo" msgid="647138761947526029">"‏درخواست Video DIAL به درخواست Video DIAL با شماره متفاوتی تغییر کرد."</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"زمانی که مسدود کردن تماس روشن است، نمی‌توانید تماس خروجی برقرار کنید."</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"تماس‌ها توسط کنترل دسترسی محدود شده است."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"تماس‌های اضطراری توسط کنترل دسترسی محدود شده است."</string>

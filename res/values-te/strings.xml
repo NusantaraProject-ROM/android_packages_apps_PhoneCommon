@@ -40,6 +40,11 @@
     <string name="callFailed_dialToUssd" msgid="2093563828737170617">"డయల్ అభ్యర్థన USSD అభ్యర్థనగా సవరించబడింది."</string>
     <string name="callFailed_dialToSs" msgid="3144952834772702469">"డయల్ అభ్యర్థన SS అభ్యర్థనగా సవరించబడింది."</string>
     <string name="callFailed_dialToDial" msgid="1143052062100334634">"డయల్ అభ్యర్థన వేరొక నంబర్‌తో డయల్‌గా సవరించబడింది."</string>
+    <string name="callFailed_dialToDialVideo" msgid="5775151113566691576">"డయల్ అభ్యర్థన వీడియో డయల్‌గా సవరించబడింది."</string>
+    <string name="callFailed_dialVideoToSs" msgid="4797922057590315855">"వీడియో డయల్ అభ్యర్థన SS అభ్యర్థనగా సవరించబడింది."</string>
+    <string name="callFailed_dialVideoToUssd" msgid="749864775809067856">"వీడియో డయల్ అభ్యర్థన USSD అభ్యర్థనగా సవరించబడింది."</string>
+    <string name="callFailed_dialVideoToDial" msgid="7907676597683996467">"వీడియో డయల్ అభ్యర్థన డయల్‌గా సవరించబడింది."</string>
+    <string name="callFailed_dialVideoToDialVideo" msgid="647138761947526029">"వీడియో డయల్ అభ్యర్థన వేరొక నంబర్‌తో వీడియో డయల్‌గా సవరించబడింది."</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"కాల్ బేరింగ్ ఆన్‌లో ఉన్నప్పుడు అవుట్‌గోయింగ్ కాల్‌లు చేయలేరు."</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"కాల్‌లు ప్రాప్యత నియంత్రణ ద్వారా నియంత్రించబడ్డాయి."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"అత్యవసర కాల్‌లు ప్రాప్యత నియంత్రణ ద్వారా నియంత్రించబడ్డాయి."</string>

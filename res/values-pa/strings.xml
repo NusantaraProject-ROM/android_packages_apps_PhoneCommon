@@ -40,6 +40,11 @@
     <string name="callFailed_dialToUssd" msgid="2093563828737170617">"DIAL ਬੇਨਤੀ USSD ਬੇਨਤੀ ਵਿੱਚ ਸੰਸ਼ੋਧਿਤ ਕੀਤੀ ਗਈ।"</string>
     <string name="callFailed_dialToSs" msgid="3144952834772702469">"DIAL ਬੇਨਤੀ SS ਬੇਨਤੀ ਵਿੱਚ ਸੰਸ਼ੋਧਿਤ ਕੀਤੀ ਗਈ।"</string>
     <string name="callFailed_dialToDial" msgid="1143052062100334634">"DIAL ਬੇਨਤੀ ਵੱਖ ਨੰਬਰ ਨਾਲ DIAL ਵਿੱਚ ਸੰਸ਼ੋਧਿਤ ਕੀਤੀ ਗਈ।"</string>
+    <string name="callFailed_dialToDialVideo" msgid="5775151113566691576">"ਡਾਇਲ ਬੇਨਤੀ ਨੂੰ ਸੋਧ ਕੇ ਵੀਡੀਓ ਡਾਇਲ ਬੇਨਤੀ ਵਿੱਚ ਬਦਲਿਆ ਗਿਆ।"</string>
+    <string name="callFailed_dialVideoToSs" msgid="4797922057590315855">"ਵੀਡੀਓ ਡਾਇਲ ਬੇਨਤੀ ਨੂੰ ਸੋਧ ਕੇ SS ਬੇਨਤੀ ਵਿੱਚ ਬਦਲਿਆ ਗਿਆ।"</string>
+    <string name="callFailed_dialVideoToUssd" msgid="749864775809067856">"ਵੀਡੀਓ ਡਾਇਲ ਬੇਨਤੀ ਨੂੰ ਸੋਧ ਕੇ USSD ਬੇਨਤੀ ਵਿੱਚ ਬਦਲਿਆ ਗਿਆ।"</string>
+    <string name="callFailed_dialVideoToDial" msgid="7907676597683996467">"ਵੀਡੀਓ ਡਾਇਲ ਬੇਨਤੀ ਨੂੰ ਸੋਧ ਕੇ ਡਾਇਲ ਬੇਨਤੀ ਵਿੱਚ ਬਦਲਿਆ ਗਿਆ।"</string>
+    <string name="callFailed_dialVideoToDialVideo" msgid="647138761947526029">"ਵੀਡੀਓ ਡਾਇਲ ਬੇਨਤੀ ਨੂੰ ਸੋਧ ਕੇ ਕਿਸੇ ਵੱਖਰੇ ਨੰਬਰ ਵਾਲੀ ਵੀਡੀਓ ਡਾਇਲ ਬੇਨਤੀ ਵਿੱਚ ਬਦਲਿਆ ਗਿਆ।"</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"ਜਦੋਂ ਕਾਲ ਬੈਰਿੰਗ ਚਾਲੂ ਹੋਵੇ ਤਾਂ ਤੁਸੀਂ ਆਊਟਗੋਇੰਗ ਕਾਲਾਂ ਨਹੀਂ ਕਰ ਸਕਦੇ।"</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"ਪਹੁੰਚ ਨਿਯੰਤਰਣ ਵੱਲੋਂ ਪ੍ਰਤਿਬੰਧਿਤ ਕਾਲਾਂ।"</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"ਪਹੁੰਚ ਨਿਯੰਤਰਣ ਵੱਲੋਂ ਪ੍ਰਤਿਬੰਧਿਤ ਐਮਰਜੈਂਸੀ ਕਾਲਾਂ।"</string>

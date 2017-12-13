@@ -40,6 +40,11 @@
     <string name="callFailed_dialToUssd" msgid="2093563828737170617">"DIAL 요청이 USSD 요청으로 수정되었습니다."</string>
     <string name="callFailed_dialToSs" msgid="3144952834772702469">"DIAL 요청이 SS 요청으로 수정되었습니다."</string>
     <string name="callFailed_dialToDial" msgid="1143052062100334634">"DIAL 요청이 다른 번호로 된 DIAL 요청으로 수정되었습니다."</string>
+    <string name="callFailed_dialToDialVideo" msgid="5775151113566691576">"DIAL 요청이 동영상 DIAL로 수정되었습니다."</string>
+    <string name="callFailed_dialVideoToSs" msgid="4797922057590315855">"동영상 DIAL 요청이 SS 요청으로 수정되었습니다."</string>
+    <string name="callFailed_dialVideoToUssd" msgid="749864775809067856">"동영상 DIAL 요청이 USSD 요청으로 수정되었습니다."</string>
+    <string name="callFailed_dialVideoToDial" msgid="7907676597683996467">"동영상 DIAL 요청이 DIAL로 수정되었습니다."</string>
+    <string name="callFailed_dialVideoToDialVideo" msgid="647138761947526029">"동영상 DIAL 요청이 번호가 다른 동영상 DIAL로 수정되었습니다."</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"착발신 제한이 설정되어 있는 상태에서는 전화를 걸 수 없습니다."</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"액세스 제어에 의해 통화가 제한되었습니다."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"액세스 제어에 의해 긴급 전화가 제한되었습니다."</string>
