@@ -40,6 +40,11 @@
     <string name="callFailed_dialToUssd" msgid="2093563828737170617">"La sol·licitud DIAL s\'ha transformat en una sol·licitud USSD."</string>
     <string name="callFailed_dialToSs" msgid="3144952834772702469">"La sol·licitud DIAL s\'ha transformat en una sol·licitud SS."</string>
     <string name="callFailed_dialToDial" msgid="1143052062100334634">"La sol·licitud DIAL s\'ha transformat en una sol·licitud DIAL amb un altre número."</string>
+    <string name="callFailed_dialToDialVideo" msgid="5775151113566691576">"La sol·licitud DIAL s\'ha transformat en una sol·licitud DIAL de vídeo."</string>
+    <string name="callFailed_dialVideoToSs" msgid="4797922057590315855">"La sol·licitud DIAL de vídeo s\'ha transformat en una sol·licitud SS."</string>
+    <string name="callFailed_dialVideoToUssd" msgid="749864775809067856">"La sol·licitud DIAL de vídeo s\'ha transformat en una sol·licitud USSD."</string>
+    <string name="callFailed_dialVideoToDial" msgid="7907676597683996467">"La sol·licitud DIAL de vídeo s\'ha transformat en una sol·licitud DIAL."</string>
+    <string name="callFailed_dialVideoToDialVideo" msgid="647138761947526029">"La sol·licitud DIAL de vídeo s\'ha transformat en una sol·licitud DIAL de vídeo amb un altre número."</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"No es poden realitzar trucades sortints amb la restricció de trucada activada."</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"El control d\'accés restringeix les trucades."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"El control d\'accés restringeix les trucades d\'emergència."</string>

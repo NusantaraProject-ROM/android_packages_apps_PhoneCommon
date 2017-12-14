@@ -40,6 +40,11 @@
     <string name="callFailed_dialToUssd" msgid="2093563828737170617">"DIALリクエストはUSSDリクエストに変更されました。"</string>
     <string name="callFailed_dialToSs" msgid="3144952834772702469">"DIALリクエストはSSリクエストに変更されました。"</string>
     <string name="callFailed_dialToDial" msgid="1143052062100334634">"DIALリクエストは別の番号のDIALに変更されました。"</string>
+    <string name="callFailed_dialToDialVideo" msgid="5775151113566691576">"DIAL リクエストが Video DIAL に変更されました。"</string>
+    <string name="callFailed_dialVideoToSs" msgid="4797922057590315855">"Video DIAL リクエストが SS リクエストに変更されました。"</string>
+    <string name="callFailed_dialVideoToUssd" msgid="749864775809067856">"Video DIAL リクエストが USSD リクエストに変更されました。"</string>
+    <string name="callFailed_dialVideoToDial" msgid="7907676597683996467">"Video DIAL リクエストが DIAL に変更されました。"</string>
+    <string name="callFailed_dialVideoToDialVideo" msgid="647138761947526029">"Video DIAL リクエストが別の番号の Video DIAL に変更されました。"</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"通話制限中は発信できません。"</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"通話の発信制限が設定されています。"</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"緊急通報の発信制限が設定されています。"</string>

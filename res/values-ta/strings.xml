@@ -40,6 +40,11 @@
     <string name="callFailed_dialToUssd" msgid="2093563828737170617">"DIAL கோரிக்கையானது USSD கோரிக்கைக்கு மாற்றப்பட்டது."</string>
     <string name="callFailed_dialToSs" msgid="3144952834772702469">"DIAL கோரிக்கையானது SS கோரிக்கைக்கு மாற்றப்பட்டது."</string>
     <string name="callFailed_dialToDial" msgid="1143052062100334634">"DIAL கோரிக்கையானது, வேறொரு எண்ணை DIAL செய்ய மாற்றப்பட்டது."</string>
+    <string name="callFailed_dialToDialVideo" msgid="5775151113566691576">"DIAL கோரிக்கையானது வீடியோ DIALக்கு மாற்றப்பட்டது."</string>
+    <string name="callFailed_dialVideoToSs" msgid="4797922057590315855">"வீடியோ DIAL கோரிக்கையானது SS கோரிக்கைக்கு மாற்றப்பட்டது."</string>
+    <string name="callFailed_dialVideoToUssd" msgid="749864775809067856">"வீடியோ DIAL கோரிக்கையானது USSD கோரிக்கைக்கு மாற்றப்பட்டது."</string>
+    <string name="callFailed_dialVideoToDial" msgid="7907676597683996467">"வீடியோ DIAL கோரிக்கையானது DIALக்கு மாற்றப்பட்டது."</string>
+    <string name="callFailed_dialVideoToDialVideo" msgid="647138761947526029">"வீடியோ DIAL கோரிக்கையானது வீடியோ DIALக்கு வேறுபட்ட எண்ணுடன் மாற்றப்பட்டது."</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"அழைப்பு தடுப்பு இயக்கத்தில் இருக்கும்போது, அழைக்க முடியாது."</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"அழைப்புகள் அணுகல் கட்டுப்பாட்டினால் தடைசெய்யப்பட்டுள்ளன."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"அவசர அழைப்புகள் அணுகல் கட்டுப்பாட்டினால் தடைசெய்யப்பட்டுள்ளன."</string>
