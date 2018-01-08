@@ -40,6 +40,11 @@
     <string name="callFailed_dialToUssd" msgid="2093563828737170617">"DIAL অনুরোধটিকে USSD অনুরোধে রুপান্তরিত করা হয়েছে৷"</string>
     <string name="callFailed_dialToSs" msgid="3144952834772702469">"DIAL অনুরোধটিকে SS অনুরোধে রুপান্তরিত করা হয়েছে৷"</string>
     <string name="callFailed_dialToDial" msgid="1143052062100334634">"অন্য নম্বর দিয়ে DIAL অনুরোধটিকে DIAL এ রুপান্তরিত করা হয়েছে৷"</string>
+    <string name="callFailed_dialToDialVideo" msgid="5775151113566691576">"DIAL অনুরোধটিকে ভিডিও DIAL এ পরিবর্তন করা হয়েছে।"</string>
+    <string name="callFailed_dialVideoToSs" msgid="4797922057590315855">"ভিডিও DIAL অনুরোধটিকে SS অনুরোধে পরিবর্তন করা হয়েছে।"</string>
+    <string name="callFailed_dialVideoToUssd" msgid="749864775809067856">"ভিডিও DIAL অনুরোধটিকে USSD অনুরোধে পরিবর্তন করা হয়েছে।"</string>
+    <string name="callFailed_dialVideoToDial" msgid="7907676597683996467">"ভিডিও DIAL অনুরোধটিকে DIAL এ পরিবর্তন করা হয়েছে।"</string>
+    <string name="callFailed_dialVideoToDialVideo" msgid="647138761947526029">"ভিডিও DIAL অনুরোধটিকে অন্য নম্বর ব্যবহার করে ভিডিও DIAL এ পরিবর্তন করা হয়েছে।"</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"কল বারিং চালু থাকাকালীন আউটগোয়িং কলগুলি করা যাবে না৷"</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"অ্যাক্সেস নিয়ন্ত্রণ দ্বারা কলগুলি সীমিত করা হয়েছে৷"</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"অ্যাক্সেস নিয়ন্ত্রণ দ্বারা জরুরী কলগুলি সীমিত করা হয়েছে৷"</string>

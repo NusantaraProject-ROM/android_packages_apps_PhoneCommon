@@ -40,6 +40,11 @@
     <string name="callFailed_dialToUssd" msgid="2093563828737170617">"DIAL заявката е променена на USSD заявка."</string>
     <string name="callFailed_dialToSs" msgid="3144952834772702469">"DIAL заявката е променена на SS заявка."</string>
     <string name="callFailed_dialToDial" msgid="1143052062100334634">"DIAL заявката е променена на DIAL заявка с друг номер."</string>
+    <string name="callFailed_dialToDialVideo" msgid="5775151113566691576">"Заявката DIAL бе променена на заявка DIAL за видеообаждане."</string>
+    <string name="callFailed_dialVideoToSs" msgid="4797922057590315855">"Заявката DIAL за видеообаждане бе променена на заявка SS."</string>
+    <string name="callFailed_dialVideoToUssd" msgid="749864775809067856">"Заявката DIAL за видеообаждане бе променена на USSD."</string>
+    <string name="callFailed_dialVideoToDial" msgid="7907676597683996467">"Заявката DIAL за видеообаждане бе променена на заявка DIAL."</string>
+    <string name="callFailed_dialVideoToDialVideo" msgid="647138761947526029">"Заявката DIAL за видеообаждане бе променена на заявка DIAL за видеообаждане с друг номер."</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"Не могат да се извършват изходящи обаждания, докато забраната за обаждане е включена."</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"Обажданията са ограничени чрез контрол на достъпа."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"Спешните обаждания са ограничени чрез контрол на достъпа."</string>
