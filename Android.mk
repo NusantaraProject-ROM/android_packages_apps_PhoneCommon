@@ -21,6 +21,7 @@ LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_RESOURCE_FILES := $(addprefix $(LOCAL_PATH)/, res)
 
 LOCAL_PACKAGE_NAME := com.android.phone.common
+LOCAL_SDK_VERSION := current
 
 include $(BUILD_PACKAGE)
 include $(CLEAR_VARS)
