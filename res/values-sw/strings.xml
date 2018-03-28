@@ -37,14 +37,14 @@
     <string name="callFailed_simError" msgid="3307159523385380486">"Hakuna SIM au kuna hitilafu ya SIM"</string>
     <string name="callFailed_outOfService" msgid="4535901975891969115">"Mtandao wa simu za mkononi haupatikani"</string>
     <string name="callFailed_fdn_only" msgid="1720606112619022283">"Simu zinazopigwa zimezuiwa na FDN"</string>
-    <string name="callFailed_dialToUssd" msgid="2093563828737170617">"Ombi la DIAL limebadilishwa kuwa ombi la USSD."</string>
-    <string name="callFailed_dialToSs" msgid="3144952834772702469">"Ombi la DIAL limebadilishwa kuwa ombi la SS."</string>
-    <string name="callFailed_dialToDial" msgid="1143052062100334634">"Ombi la DIAL limebadilishwa kuwa ombi la DIAL lenye nambari tofauti."</string>
-    <string name="callFailed_dialToDialVideo" msgid="5775151113566691576">"Ombi la DIAL limebadilishwa kuwa la Video DIAL."</string>
-    <string name="callFailed_dialVideoToSs" msgid="4797922057590315855">"Ombi la Video DIAL limebadilishwa kuwa la SS."</string>
-    <string name="callFailed_dialVideoToUssd" msgid="749864775809067856">"Ombi la Video DIAL limebadilishwa kuwa la USSD."</string>
-    <string name="callFailed_dialVideoToDial" msgid="7907676597683996467">"Ombi la Video DIAL limebadilishwa kuwa la DIAL."</string>
-    <string name="callFailed_dialVideoToDialVideo" msgid="647138761947526029">"Ombi la Video DIAL limebadilishwa kuwa la Video DIAL lenye nambari tofauti."</string>
+    <string name="callFailed_dialToUssd" msgid="2433610980015734954">"Simu ilibadilishwa kuwa ombi la USSD"</string>
+    <string name="callFailed_dialToSs" msgid="1932708241240329683">"Simu ilibadilishwa kuwa ombi la SS"</string>
+    <string name="callFailed_dialToDial" msgid="4383070508519313539">"Nambari ya simu ilibadilishwa"</string>
+    <string name="callFailed_dialToDialVideo" msgid="5132568145494398814">"Ilibadilishwa kuwa simu ya video"</string>
+    <string name="callFailed_dialVideoToSs" msgid="4775276313558039477">"Simu ya video ilibadilishwa kuwa ombi la SS"</string>
+    <string name="callFailed_dialVideoToUssd" msgid="3075648968404725328">"Simu ya video ilibadilishwa kuwa ombi la USSD"</string>
+    <string name="callFailed_dialVideoToDial" msgid="7758276428184272770">"Ilibadilishwa kuwa simu ya kawaida"</string>
+    <string name="callFailed_dialVideoToDialVideo" msgid="5451053686606499859">"Nambari ya simu ilibadilishwa"</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"Haiwezi kupiga simu za kutoka wakati uzuiaji wa simu umewashwa."</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"Simu zimewekewa vizuizi na kidhibiti cha idhini ya kufikia."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"Simu za dharura zimewekewa vizuizi na kidhibiti cha idhini ya kufikia."</string>
