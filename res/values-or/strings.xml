@@ -37,22 +37,14 @@
     <string name="callFailed_simError" msgid="3307159523385380486">"କୌଣସି SIM ନାହିଁ କିମ୍ବା SIMରେ ତ୍ରୁଟି ଅଛି"</string>
     <string name="callFailed_outOfService" msgid="4535901975891969115">"ସେଲ୍ୟୁଲାର୍ ନେଟ୍‌ୱର୍କ ଉପଲବ୍ଧ ନାହିଁ"</string>
     <string name="callFailed_fdn_only" msgid="1720606112619022283">"FDN ଦ୍ଵାରା ଆଉଟଗୋ‌ଇଙ୍ଗ କଲ୍ ଉପରେ କଟକଣା ଲଗାଯାଇଛି।"</string>
-    <!-- no translation found for callFailed_dialToUssd (2433610980015734954) -->
-    <skip />
-    <!-- no translation found for callFailed_dialToSs (1932708241240329683) -->
-    <skip />
-    <!-- no translation found for callFailed_dialToDial (4383070508519313539) -->
-    <skip />
-    <!-- no translation found for callFailed_dialToDialVideo (5132568145494398814) -->
-    <skip />
-    <!-- no translation found for callFailed_dialVideoToSs (4775276313558039477) -->
-    <skip />
-    <!-- no translation found for callFailed_dialVideoToUssd (3075648968404725328) -->
-    <skip />
-    <!-- no translation found for callFailed_dialVideoToDial (7758276428184272770) -->
-    <skip />
-    <!-- no translation found for callFailed_dialVideoToDialVideo (5451053686606499859) -->
-    <skip />
+    <string name="callFailed_dialToUssd" msgid="2433610980015734954">"କଲ୍ USSD ଅନୁରୋଧକୁ ବଦଳିଗଲା"</string>
+    <string name="callFailed_dialToSs" msgid="1932708241240329683">"କଲ୍ SS ଅନୁରୋଧକୁ ବଦଳିଗଲା"</string>
+    <string name="callFailed_dialToDial" msgid="4383070508519313539">"ଭିନ୍ନ ଏକ ନମ୍ବର୍‌କୁ ବଦଳାଗଲା"</string>
+    <string name="callFailed_dialToDialVideo" msgid="5132568145494398814">"ଭିଡିଓ କଲ୍‌କୁ ବଦଳିଗଲା"</string>
+    <string name="callFailed_dialVideoToSs" msgid="4775276313558039477">"ଭିଡିଓ କଲ୍ SS ଅନୁରୋଧକୁ ବଦଳିଗଲା"</string>
+    <string name="callFailed_dialVideoToUssd" msgid="3075648968404725328">"ଭିଡିଓ କଲ୍ USSD ଅନୁରୋଧକୁ ବଦଳିଗଲା"</string>
+    <string name="callFailed_dialVideoToDial" msgid="7758276428184272770">"କଲ୍ ନିୟନିତ କଲ୍‌ରେ ବଦଳିଗଲା"</string>
+    <string name="callFailed_dialVideoToDialVideo" msgid="5451053686606499859">"ଭିନ୍ନ ଏକ ନମ୍ବର୍‌କୁ ବଦଳାଗଲା"</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"କଲ୍ ବେୟାରିଙ୍ଗ ଚାଲୁ ଥିବା ବେଳେ ଆଉଟ୍‌ଗୋ‌ଇଙ୍ଗ କଲ୍ କରାଯାଇପାରିବ ନାହିଁ।"</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"ଆକ୍ସେସ୍ କଣ୍ଟ୍ରୋଲ୍ ଦ୍ଵାରା କଲ୍ ଉପରେ କଟକଣା ଲଗାଯାଇଛି।"</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"ଆକ୍ସେସ୍ କଣ୍ଟ୍ରୋଲ୍ ଦ୍ଵାରା ଜରୁରିକାଳୀନ କଲ୍ ଉପରେ କଟକଣା ଲଗାଯାଇଛି।"</string>
@@ -63,12 +55,8 @@
     <string name="callEnded_pulled" msgid="437630601519502587">"ଅନ୍ୟ ଡିଭାଇସ୍‌କୁ କଲ୍ ଟ୍ରାନ୍ସଫର୍ କରାଗଲା।"</string>
     <string name="ringtone_silent" msgid="249805466934178869">"କିଛିନୁହେଁ"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"ଅଜଣା ରିଙ୍ଗଟୋନ୍‌"</string>
-    <!-- no translation found for callFailed_maximum_reached (4823790040422765056) -->
-    <skip />
-    <!-- no translation found for callFailed_data_disabled (3885826754435317856) -->
-    <skip />
-    <!-- no translation found for callFailed_data_limit_reached_description (1439284832802552582) -->
-    <skip />
-    <!-- no translation found for callFailed_data_limit_reached (7045770594965160282) -->
-    <skip />
+    <string name="callFailed_maximum_reached" msgid="4823790040422765056">"ଉପଲବ୍ଧ ସମସ୍ତ ଲାଇନ୍‌କୁ ବ୍ୟବହାର କରାଯାଉଛି। କଲ୍ କରିବା ପାଇଁ ଏହି ଡିଭାଇସ୍‌ରୁ କିମ୍ବା ଆପଣଙ୍କର ଅନ୍ୟାନ୍ୟ ଡିଭାଇସ୍ ମଧ୍ୟରୁ ଗୋଟିଏ କଲ୍‌କୁ ଡିସ୍‌କନେକ୍ଟ କରନ୍ତୁ।"</string>
+    <string name="callFailed_data_disabled" msgid="3885826754435317856">"କଲ୍ ସମାପ୍ତ ହୋ‌ଇଗଲା କାରଣ ସେଲ୍ୟୁଲାର୍ ଡାଟା ଅକ୍ଷମ ହୋ‌ଇଗଲା।"</string>
+    <string name="callFailed_data_limit_reached_description" msgid="1439284832802552582">"କଲ୍ ସମାପ୍ତ ହୋ‌ଇଗଲା କାରଣ ସେଲ୍ୟୁଲାର୍ ଡାଟା ଶେଷ ସୀମାରେ ପହଞ୍ଚିଗଲା।"</string>
+    <string name="callFailed_data_limit_reached" msgid="7045770594965160282">"ଡାଟା ସୀମାରେ ପହଞ୍ଚିଗଲା। କଲ୍ ସମାପ୍ତ ହୋ‌ଇଗଲା।"</string>
 </resources>
