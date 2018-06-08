@@ -40,6 +40,11 @@
     <string name="callFailed_dialToUssd" msgid="2093563828737170617">"Pedido DIAL modificado para um pedido USSD."</string>
     <string name="callFailed_dialToSs" msgid="3144952834772702469">"Pedido DIAL modificado para um pedido SS."</string>
     <string name="callFailed_dialToDial" msgid="1143052062100334634">"Pedido DIAL modificado para um pedido DIAL com um número diferente."</string>
+    <string name="callFailed_dialToDialVideo" msgid="5775151113566691576">"Pedido DIAL modificado para um pedido Video DIAL."</string>
+    <string name="callFailed_dialVideoToSs" msgid="4797922057590315855">"Pedido Video DIAL modificado para um pedido SS."</string>
+    <string name="callFailed_dialVideoToUssd" msgid="749864775809067856">"Pedido Video DIAL modificado para um pedido USSD."</string>
+    <string name="callFailed_dialVideoToDial" msgid="7907676597683996467">"Pedido Video DIAL modificado para um pedido DIAL."</string>
+    <string name="callFailed_dialVideoToDialVideo" msgid="647138761947526029">"Pedido Video DIAL modificado para um pedido Video DIAL com um número diferente."</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"Não é possível efetuar chamadas enquanto o barramento de chamadas estiver ativado."</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"Chamadas restringidas pelo controlo de acesso."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"Chamadas de emergência restringidas pelo controlo de acesso."</string>

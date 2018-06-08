@@ -40,18 +40,23 @@
     <string name="callFailed_dialToUssd" msgid="2093563828737170617">"DIAL zahtjev je izmijenjen u USSD zahtjev."</string>
     <string name="callFailed_dialToSs" msgid="3144952834772702469">"DIAL zahtjev je izmijenjen u SS zahtjev."</string>
     <string name="callFailed_dialToDial" msgid="1143052062100334634">"DIAL zahtjev je izmijenjen u DIAL s drugim brojem."</string>
+    <string name="callFailed_dialToDialVideo" msgid="5775151113566691576">"DIAL zahtjev je izmijenjen u Video DIAL."</string>
+    <string name="callFailed_dialVideoToSs" msgid="4797922057590315855">"Video DIAL zahtjev je izmijenjen u SS zahtjev."</string>
+    <string name="callFailed_dialVideoToUssd" msgid="749864775809067856">"Video DIAL zahtjev je izmijenjen u USSD zahtjev."</string>
+    <string name="callFailed_dialVideoToDial" msgid="7907676597683996467">"Video DIAL zahtjev je izmijenjen u DIAL."</string>
+    <string name="callFailed_dialVideoToDialVideo" msgid="647138761947526029">"Video DIAL zahtjev je izmijenjen u Video DIAL s drugim brojem."</string>
     <string name="callFailed_cb_enabled" msgid="4745550615395092407">"Nije moguće upućivati odlazne pozive kada je uključena zabrana poziva."</string>
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"Pozivi su ograničeni kontrolom pristupa."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"Hitni pozivi su ograničeni kontrolom pristupa."</string>
     <string name="callFailed_dsac_restricted_normal" msgid="266947632344387216">"Standardni pozivi su ograničeni kontrolom pristupa."</string>
     <string name="callFailed_unobtainable_number" msgid="124621797631734731">"Nevažeći broj"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"Nepoznat broj govorne pošte."</string>
-    <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"Nije moguće upućivati videopozive kada je TTY omogućen."</string>
+    <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"Nije moguće upućivati video pozive kada je TTY omogućen."</string>
     <string name="callEnded_pulled" msgid="437630601519502587">"Poziv je prebačen na drugi uređaj."</string>
     <string name="ringtone_silent" msgid="249805466934178869">"Ništa"</string>
     <string name="ringtone_unknown" msgid="2303463713486734520">"Nepoznato zvono"</string>
     <string name="callFailed_maximum_reached" msgid="4823790040422765056">"Sve dostupne linije su zauzete. Da uputite poziv, prekinite jedan od poziva na ovom uređaju ili na nekom od drugih uređaja."</string>
-    <string name="callFailed_data_disabled" msgid="3885826754435317856">"Poziv je završen jer su mobilni podaci onemogućeni."</string>
-    <string name="callFailed_data_limit_reached_description" msgid="1439284832802552582">"Poziv je završen jer je dostignut limit mobilnih podataka."</string>
+    <string name="callFailed_data_disabled" msgid="3885826754435317856">"Poziv je završen jer je prijenos podataka na mobilnoj mreži onemogućen."</string>
+    <string name="callFailed_data_limit_reached_description" msgid="1439284832802552582">"Poziv je završen jer je dostignut limit prijenosa podataka na mobilnoj mreži."</string>
     <string name="callFailed_data_limit_reached" msgid="7045770594965160282">"Dostignut je limit podataka. Poziv je završen."</string>
 </resources>
