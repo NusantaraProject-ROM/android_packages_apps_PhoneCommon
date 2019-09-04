@@ -49,7 +49,7 @@
     <string name="callFailed_dsac_restricted" msgid="4087941056515103695">"Deiak sarbide-kontrolaren bidez daude mugatuta."</string>
     <string name="callFailed_dsac_restricted_emergency" msgid="9031535611092828510">"Larrialdi-deiak sarbide-kontrolaren bidez daude mugatuta."</string>
     <string name="callFailed_dsac_restricted_normal" msgid="266947632344387216">"Dei arruntak sarbide-kontrolaren bidez daude mugatuta."</string>
-    <string name="callFailed_unobtainable_number" msgid="124621797631734731">"Zenbaki baliogabea"</string>
+    <string name="callFailed_unobtainable_number" msgid="124621797631734731">"Zenbakiak ez du balio"</string>
     <string name="incall_error_missing_voicemail_number" msgid="3651090591812220874">"Erantzungailuaren zenbakia ezezaguna da."</string>
     <string name="callFailed_video_call_tty_enabled" msgid="186585701668604271">"Ezin da egin bideo-deirik TTY gaituta dagoenean."</string>
     <string name="callEnded_pulled" msgid="437630601519502587">"Beste gailu batera transferitu da deia."</string>
