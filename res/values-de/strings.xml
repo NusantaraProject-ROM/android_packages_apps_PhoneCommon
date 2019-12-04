@@ -38,10 +38,10 @@
     <string name="callFailed_outOfService" msgid="2917536349269880601">"Mobilfunknetz nicht verfügbar"</string>
     <string name="callFailed_fdn_only" msgid="584249308311672690">"Ausgehende Anrufe unterliegen der Rufnummernbeschränkung."</string>
     <string name="callFailed_dialToUssd" msgid="6794913139176808973">"Anruf wurde in USSD-Anfrage geändert"</string>
-    <string name="callFailed_dialToSs" msgid="6749473185855000519">"Anruf wurde in SS-Anfrage geändert"</string>
+    <string name="callFailed_dialToSs" msgid="6749473185855000519">"Anruf wurde in SS-Anforderung geändert"</string>
     <string name="callFailed_dialToDial" msgid="391531243214210803">"In andere Nummer geändert"</string>
     <string name="callFailed_dialToDialVideo" msgid="1405537953282276350">"In Videoanruf geändert"</string>
-    <string name="callFailed_dialVideoToSs" msgid="4187072851496468440">"Videoanruf wurde in SS-Anfrage geändert"</string>
+    <string name="callFailed_dialVideoToSs" msgid="4187072851496468440">"Videoanruf wurde in SS-Anforderung geändert"</string>
     <string name="callFailed_dialVideoToUssd" msgid="4479951468674677111">"Videoanruf wurde in USSD-Anfrage geändert"</string>
     <string name="callFailed_dialVideoToDial" msgid="160029277192677751">"In normalen Anruf geändert"</string>
     <string name="callFailed_dialVideoToDialVideo" msgid="3976695729414283836">"In andere Nummer geändert"</string>
