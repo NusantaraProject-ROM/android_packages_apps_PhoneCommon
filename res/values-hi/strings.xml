@@ -25,7 +25,7 @@
     <string name="default_notification_description" msgid="6011631627871110785">"डिफ़ॉल्ट ध्वनि (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)"</string>
     <string name="callFailed_userBusy" msgid="5163219086553610486">"लाइन व्यस्त"</string>
     <string name="callFailed_congestion" msgid="3645995103907418337">"नेटवर्क व्यस्त"</string>
-    <string name="callFailed_timedOut" msgid="7772951976278867294">"कोई प्रतिसाद नहीं, समयबाह्य"</string>
+    <string name="callFailed_timedOut" msgid="7772951976278867294">"कोई जवाब नहीं मिला, समय पूरा हो गया"</string>
     <string name="callFailed_server_unreachable" msgid="4766146133909799091">"सर्वर पहुंच योग्य नहीं है"</string>
     <string name="callFailed_number_unreachable" msgid="1243366438388873914">"नंबर पहुंच योग्य नहीं है"</string>
     <string name="callFailed_invalid_credentials" msgid="6115412108261660271">"गलत उपयोगकर्ता नाम या पासवर्ड"</string>
