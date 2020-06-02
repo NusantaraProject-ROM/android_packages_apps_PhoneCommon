@@ -36,7 +36,7 @@
     <string name="callFailed_powerOff" msgid="2212239757387143765">"Irratia desaktibatuta dago"</string>
     <string name="callFailed_simError" msgid="510948380244092037">"Ez dago SIM txartelik edo SIM txartelaren errore bat gertatu da"</string>
     <string name="callFailed_outOfService" msgid="2917536349269880601">"Sare mugikorra ez dago erabilgarri"</string>
-    <string name="callFailed_fdn_only" msgid="584249308311672690">"Irteerako deiak FDN ezarpenaren bidez murrizten dira."</string>
+    <string name="callFailed_fdn_only" msgid="584249308311672690">"Irteerako deiak markatze finkoko zenbakiaren arabera murrizten dira."</string>
     <string name="callFailed_dialToUssd" msgid="6794913139176808973">"USSD eskaerara aldatu da deia"</string>
     <string name="callFailed_dialToSs" msgid="6749473185855000519">"SS eskaerara aldatu da deia"</string>
     <string name="callFailed_dialToDial" msgid="391531243214210803">"Beste zenbaki batera aldatu da"</string>
